@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "Name": "发布设置1",
+    "ApplicationUrl": "http://xa-dd3-forguncy2/testing_process",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-forguncy2",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "testing_process",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  }
+]
