@@ -1,0 +1,257 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "5,20": "忘记密码",
+    "8,20": "请输入您的用户名或邮箱地址。点击发送按钮后，系统会发送一封电子邮件到你=您的电子邮箱中。电子邮件会包含一个重置密码网页的链接。您可以打开链接，在网页中指定新密码。",
+    "13,20": "用户名或邮箱地址",
+    "18,20": "发送",
+    "21,20": "取消发送"
+  },
+  "AttachInfos": {
+    "14,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ForguncyAttribute": "ForgotPassword_UserOrEmail"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "发送",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ForgotPassword_Send"
+      }
+    },
+    "21,20": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "取消发送",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 2,
+        "HorizontalAlignment": 5,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "HorizontalAlignment": 7,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Text 1 50",
+        "Top",
+        "Left",
+        "@",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "5,20": 0,
+      "8,20": 1,
+      "13,20": 2,
+      "14,20": 3,
+      "18,20": 4,
+      "21,20": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,20,2,14",
+    "8,20,5,14",
+    "14,20,2,14",
+    "18,20,2,14",
+    "21,20,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_忘记密码_手机版",
+    "Title": "忘记密码",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "457d8b10-d857-47fc-9b7c-82c261e022bc",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "340,60",
+      "Size": "400,430"
+    }
+  ]
+}///0RScjm5PQIabR2pQGUXYIYwJ28uYytsLpLLIqqNr8K0mvw66zvB+o3NDahwTztYkyfvV27Bky97OWaLc9uTu+eErF3v2KyPDiBEX1XEAJS6HTdhoSkj7hdLvtFp2R34dHmdXE2in3uDXJCEJG0BpvLK9clThfT5olFM8+AR4ZMjc+f58qOvsF/7G1bSi9tKAaBGbAFhZRzMrdgx4VTnnQEy7h5ws93xkSjvSsuzq/+7f5LFe1Kms6J3paEso2yHKg4+yo/V/sf19Kt0SCZu0vbjZLbkTGhky9BNAZSPAE8jXmx6t1T9cU2CreX1p8AAgO9Rd/r1Uh3M2uisckM2sXIfFsdkmCWHt3M3hQtM+qFrz3Q1LkaRfUX4Q9MackNR/hV3JT5n+t0aGcXkvmgV0stI+9I17vws7rMQCCmREE805Zb+YLBLa4eucRlBJePN5xOHkkhyfYBx5Y2j4ripsZlMogi8INm71S148JEIwotF9b/h1JfmzOs3yNrvBDkt+d/vAk0aasx03J4sDWhKQlLl87+QGLvetY1XHO4KpFqBj44s+6XNuuglMnYMJcmlNLMY9XN4MtZRk7GP/1BDOodO613vflQwrlIhfCbgF02IGJkNLfQy+x3x11nd4GTduTljM3INkAfeAGbcWVmHHKaeXiyPIyzit+bTw5unrHk/QFXByNxmfjhv9VcP4LFf28aFRf0+d/tRURq6sQ3qouk9CMDqywHDHnVNE89V/vWLSfG4q03azmwzX3/3tXDuJqFLawvOlWBxVNABj0rxQ/YzkwcNYSE5NyW9uaWTAZsXtL1W4DdpRH3GfkjsJQ/onfSq/AuIqQykn35W1Ytm2p33eC+7D9iE3BXo+SAZxDYrO0x6QpdJozz7Rf9p66SuJ2MJTJhVVEhuzLAAtEWaDg==|920

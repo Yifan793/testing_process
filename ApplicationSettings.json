@@ -1,0 +1,47 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "q&eGFG9mL)#7"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 56351,
+  "UserServicePort": 27632,
+  "BpmServerSchemaId": "a3b3705d-432d-474f-a181-93e9d302cc4b",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": "MySql1"
+  },
+  "StartPage": "帮助文档",
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
+}

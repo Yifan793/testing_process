@@ -1,0 +1,928 @@
+{
+  "Name": "出差信息表",
+  "ShowBuiltInFields": true,
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
+      "enabledTypes": 6,
+      "detailTables": [
+        {
+          "subTableName": "出差借款额度表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "出差结算汇率表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "出差行程表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "出差费用借支表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "出差预定表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "出差预算表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        },
+        {
+          "subTableName": "票据报销清单表",
+          "subColumnName": "出差ID",
+          "relatedColumnName": "ID"
+        }
+      ]
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 5,
+            "出差事由": 5,
+            "出差人": 5,
+            "出差人数": 5,
+            "出差地点": 5,
+            "出差天数": 5,
+            "出差类型": 5,
+            "分机号": 5,
+            "开始时间": 5,
+            "成本中心": 5,
+            "是否申请签证": 5,
+            "是否需要借款": 5,
+            "流程实例ID": 5,
+            "状态": 5,
+            "申请日期": 5,
+            "签证种类": 5,
+            "结束时间": 5,
+            "部门": 5,
+            "需要管理部预定": 5
+          },
+          "subTableOperations": {
+            "出差借款额度表": 5,
+            "出差结算汇率表": 5,
+            "出差行程表": 5,
+            "出差费用借支表": 5,
+            "出差预定表": 5,
+            "出差预算表": 5,
+            "票据报销清单表": 5
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "Administrator",
+          "出差Admin"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 5,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 1
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 5,
+            "出差事由": 5,
+            "出差人": 5,
+            "出差人数": 5,
+            "出差地点": 5,
+            "出差天数": 5,
+            "出差类型": 5,
+            "分机号": 5,
+            "开始时间": 5,
+            "成本中心": 5,
+            "是否申请签证": 5,
+            "是否需要借款": 5,
+            "流程实例ID": 5,
+            "状态": 5,
+            "申请日期": 5,
+            "签证种类": 5,
+            "结束时间": 5,
+            "部门": 5,
+            "需要管理部预定": 5
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 5,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 1,
+            "condition": {
+              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+              "CompareType": 8,
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "6e716ea7-c30e-424b-9387-815ac33d67e6"
+              },
+              "Value": "申请中,审批被拒绝"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 5
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 1,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "98fa389f-5a1b-4502-ac2a-104ca0749f79"
+              },
+              "Value": "票据报销"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 2
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": ""
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "办公室",
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 5,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "0629926d-799f-4fa0-8ff6-637fb81afc0a"
+              },
+              "Value": "办公室预定"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "办公室"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 5,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 5,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "58947234-e1af-40fe-82ca-55c2fb8694ca"
+              },
+              "Value": "财务部预算"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 1,
+            "出差行程表": 1,
+            "出差费用借支表": 5,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "15349677-b736-4ddb-9954-4645cad49b69"
+              },
+              "Value": "财务部借支"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 1,
+            "出差事由": 1,
+            "出差人": 1,
+            "出差人数": 1,
+            "出差地点": 1,
+            "出差天数": 1,
+            "出差类型": 1,
+            "分机号": 1,
+            "开始时间": 1,
+            "成本中心": 1,
+            "是否申请签证": 1,
+            "是否需要借款": 1,
+            "流程实例ID": 1,
+            "状态": 1,
+            "申请日期": 1,
+            "签证种类": 1,
+            "结束时间": 1,
+            "部门": 1,
+            "需要管理部预定": 1
+          },
+          "subTableOperations": {
+            "出差借款额度表": 1,
+            "出差结算汇率表": 5,
+            "出差行程表": 1,
+            "出差费用借支表": 1,
+            "出差预定表": 1,
+            "出差预算表": 1,
+            "票据报销清单表": 1
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "80b0c3fa-269e-4a37-b048-590970a3922c"
+              },
+              "Value": "财务部结算"
+            }
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "其他事项": 5,
+            "出差事由": 5,
+            "出差人": 5,
+            "出差人数": 5,
+            "出差地点": 5,
+            "出差天数": 5,
+            "出差类型": 5,
+            "分机号": 5,
+            "开始时间": 5,
+            "成本中心": 5,
+            "是否申请签证": 5,
+            "是否需要借款": 5,
+            "流程实例ID": 5,
+            "状态": 5,
+            "申请日期": 5,
+            "签证种类": 5,
+            "结束时间": 5,
+            "部门": 5,
+            "需要管理部预定": 5
+          },
+          "subTableOperations": {
+            "出差借款额度表": 5,
+            "出差结算汇率表": 5,
+            "出差行程表": 5,
+            "出差费用借支表": 5,
+            "出差预定表": 5,
+            "出差预算表": 5,
+            "票据报销清单表": 5
+          },
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 2
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "部门经理"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 13,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "出差Admin",
+          "Administrator"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 1
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 2
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "办公室",
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "c75744f7-6084-4d01-9711-66c151940e3e"
+              },
+              "Value": "办公室预定"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "办公室"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+              "CompareType": 8,
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "状态",
+                "GUID": "9d123755-4c91-4d93-9c29-57579953e7d0"
+              },
+              "Value": "财务部预算,财务部借支,财务部结算"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "财务部"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 2
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "部门经理"
+        ]
+      }
+    ]
+  },
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "AutoIncrement": true,
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "出差人",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "出差人数",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "部门",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "出差类型",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "出差地点",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "分机号",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "申请日期",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "出差事由",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "成本中心",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "开始时间",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "结束时间",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "出差天数",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "其他事项",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "tinyint",
+      "MaxLength": -1,
+      "Name": "是否申请签证",
+      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "签证种类",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DefaultValue": false,
+      "DatabaseColumnType": "tinyint",
+      "MaxLength": -1,
+      "Name": "是否需要借款",
+      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "需要管理部预定",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "流程实例ID",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "状态",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "AllowModifySchema": true,
+    "ConnectionId": "MySql1",
+    "SourceTableName": "出差信息表",
+    "SourceTableSchema": ""
+  },
+  "PrimaryKey": [
+    "ID"
+  ],
+  "Relations": [],
+  "Indexes": []
+}

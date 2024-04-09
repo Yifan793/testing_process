@@ -1,0 +1,933 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 40.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 14
+  },
+  "Values": {
+    "0,0": "用户名",
+    "0,5": "密码",
+    "0,9": "角色",
+    "1,0": "人事部员工5",
+    "1,5": 123456,
+    "1,9": "办公室",
+    "2,0": "部门1经理1",
+    "2,5": 123456,
+    "2,9": "部门经理",
+    "3,0": "部门1员工1",
+    "3,5": 123456,
+    "4,0": "部门1员工2",
+    "4,5": 123456,
+    "5,0": "财务部员工4",
+    "5,5": 123456,
+    "5,9": "财务部",
+    "6,0": "财务部经理3",
+    "6,5": 123456,
+    "6,9": "财务部,部门经理,出差Admin",
+    "7,0": "总经理",
+    "7,5": 123456,
+    "7,9": "总经理,部门经理"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A2"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "人事部员工5",
+        "TemplateKey": "样式1"
+      }
+    },
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A2"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "1,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A2"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "办公室",
+        "TemplateKey": "样式1"
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A3"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "部门1经理1",
+        "TemplateKey": "样式1"
+      }
+    },
+    "2,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A3"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "2,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A3"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "部门经理",
+        "TemplateKey": "样式1"
+      }
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A4"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "部门1员工1",
+        "TemplateKey": "样式1"
+      }
+    },
+    "3,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A4"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A5"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "部门1员工2",
+        "TemplateKey": "样式1"
+      }
+    },
+    "4,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A5"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A6"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "财务部员工4",
+        "TemplateKey": "样式1"
+      }
+    },
+    "5,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A6"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "5,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A6"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "财务部",
+        "TemplateKey": "样式1"
+      }
+    },
+    "6,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A7"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "财务部经理3",
+        "TemplateKey": "样式1"
+      }
+    },
+    "6,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A7"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "6,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A7"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "财务部,部门经理,出差Admin",
+        "TemplateKey": "样式1"
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!A8"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "总经理",
+        "TemplateKey": "样式1"
+      }
+    },
+    "7,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A8"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "123456",
+        "TemplateKey": "样式1"
+      }
+    },
+    "7,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!user"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!$A8"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户列表页!passwd"
+                },
+                "Value": "123456"
+              }
+            ]
+          }
+        ],
+        "Text": "总经理,部门经理",
+        "TemplateKey": "样式1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "TextIndent": 10,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Formatter": 2,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Formatter": 2,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontWeight": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -15",
+        "Body",
+        "[AUTO]General",
+        "Left",
+        "Bold"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 0,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 0,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "1,0": 2,
+      "1,5": 2,
+      "1,9": 2,
+      "2,0": 2,
+      "2,5": 3,
+      "2,6": 4,
+      "2,7": 4,
+      "2,8": 4,
+      "2,9": 3,
+      "2,10": 4,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "3,0": 2,
+      "3,5": 3,
+      "3,6": 4,
+      "3,7": 4,
+      "3,8": 4,
+      "3,9": 3,
+      "3,10": 4,
+      "3,11": 4,
+      "3,12": 4,
+      "3,13": 4,
+      "4,0": 3,
+      "4,1": 4,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 3,
+      "4,6": 4,
+      "4,7": 4,
+      "4,8": 4,
+      "4,9": 3,
+      "4,10": 4,
+      "4,11": 4,
+      "4,12": 4,
+      "4,13": 4,
+      "5,0": 2,
+      "5,1": 5,
+      "5,2": 5,
+      "5,3": 5,
+      "5,4": 5,
+      "5,5": 3,
+      "5,6": 4,
+      "5,7": 4,
+      "5,8": 4,
+      "5,9": 3,
+      "5,10": 4,
+      "5,11": 4,
+      "5,12": 4,
+      "5,13": 4,
+      "6,0": 2,
+      "6,1": 5,
+      "6,2": 5,
+      "6,3": 5,
+      "6,4": 5,
+      "6,5": 3,
+      "6,6": 4,
+      "6,7": 4,
+      "6,8": 4,
+      "6,9": 3,
+      "6,10": 4,
+      "6,11": 4,
+      "6,12": 4,
+      "6,13": 4,
+      "7,0": 2,
+      "7,1": 5,
+      "7,2": 5,
+      "7,3": 5,
+      "7,4": 5,
+      "7,5": 3,
+      "7,6": 4,
+      "7,7": 4,
+      "7,8": 4,
+      "7,9": 3,
+      "7,10": 4,
+      "7,11": 4,
+      "7,12": 4,
+      "7,13": 4
+    },
+    "RowStyles": {
+      "0": 6,
+      "1": 7,
+      "2": 8,
+      "3": 7,
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "HorizontalAlignment": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,5",
+    "0,5,1,4",
+    "0,9,1,5",
+    "1,0,1,5",
+    "1,5,1,4",
+    "1,9,1,5",
+    "2,0,1,5",
+    "2,5,1,4",
+    "2,9,1,5",
+    "3,0,1,5",
+    "3,5,1,4",
+    "3,9,1,5",
+    "4,0,1,5",
+    "4,5,1,4",
+    "4,9,1,5",
+    "5,0,1,5",
+    "5,5,1,4",
+    "5,9,1,5",
+    "6,0,1,5",
+    "6,5,1,4",
+    "6,9,1,5",
+    "7,0,1,5",
+    "7,5,1,4",
+    "7,9,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//VOBWWrAUIgiLIgoGnW4W3p78/X0rBT0igkuK/LDJBSXkny2jm6WcluqoUYzMbOKEjq3NiFtlUXYbmOIIkofrSTdkC72gufgS2j85N7L3QaHf3G9LlT3T/VoVr8+rEegq0I6gXuEt2z4PcwaoF4sQAJCIyxEbkSS9Y+Hz5XKdVYID+7w5UbXS96WTOMjAGDDmTltRmOqqfLZiJnht0RkFSmGx1RgixuoIABQj5WBXQjmyMqxvd/oOMj5ShVA7or3jB2Yz5qFfCEaImojiXqY4AkD/t2Y1PchG51tYy03iqnKD+/dvgSzY559cIvEZz8tYTl1L3wHBZVDGxBjVKB77FU8R2jUNF3jjPNtdDDon4FKJ0jQoJwpmLcnQGQ2hSYYzxEWnR36tv01pwRiLmT4zH622pIa3b83NzV4azkShHCveXbHneNGYllz9eNdbwW7y059QhHMPhSFf7A/zrvwK3gFKPdtjK8YhQzrQBMF+8BfqzjaRD6mRpsOhndo6mt2h7gOnHcOChMJONLAKNMrUzdqUQGTrTGNMDXBUBTn+yaeqWWSHJ5aeNrMhM5aVGHiWL8Y0NIjYQ+QAZ35kFzapQkM+QUbe6KKcBsponmi8aRodCjs2eWr8OtUMRBdwoRcZaXfmFK2s74bruZDQ9MPTi2lotoZ94CzHTPA9OGpACZpAVVIqdinGAq1YCkPbVoFp9sLRFonb90y9PeYjpZsrI1xHGAwDuT9jZweNslnXj+IdldH2XFM3SbVIyM03NLL6XLF2/Fi5fVytOeMLAveGQc+quZO2u81StK+jilmxOGR3Stm3hfoMObGQcx+yNuvqMkK5XFE5bmubv9ABo0zWBO05JSbnqtPDUeLR0LrrHeCrxILDKnG7RqG0luGZbqDcBu5iBCkLX4I1Hr+8z5quDg==|920

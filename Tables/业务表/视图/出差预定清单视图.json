@@ -1,0 +1,76 @@
+{
+  "Name": "出差预定清单视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "主项目ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "出差ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "CNY",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DefaultValue": 0,
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "票据数",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "日期",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "地点或起点",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "其它或终点",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "事由或交通工具",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "AllowModifySchema": true,
+    "ConnectionId": "MySql1",
+    "SourceTableName": "出差预定清单视图",
+    "SourceTableSchema": "",
+    "CreateViewSql": "select `费用预算子项目表`.`主项目ID` AS `主项目ID`,`出差预定表`.`出差ID` AS `出差ID`,`出差预定表`.`费用（CNY）` AS `CNY`,1 AS `票据数`,`出差预定表`.`日期` AS `日期`,`出差预定表`.`起点` AS `地点或起点`,`出差预定表`.`终点` AS `其它或终点`,(case when (`费用预算子项目表`.`子项目` like '%火车%') then '火车' when (`费用预算子项目表`.`子项目` like '%飞机%') then '飞机' else `出差预定表`.`说明` end) AS `事由或交通工具` from (`出差预定表` join `费用预算子项目表` on((`费用预算子项目表`.`ID` = `出差预定表`.`子项目ID`))) where (`出差预定表`.`是否付款` = 1) order by `出差预定表`.`出差ID`",
+    "ViewInfo": {
+      "ViewName": "出差预定清单视图",
+      "QueryColumns": []
+    }
+  },
+  "Indexes": []
+}

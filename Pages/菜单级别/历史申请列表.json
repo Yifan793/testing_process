@@ -1,0 +1,675 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 16,
+    "DefaultSize": 40.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "申请列表",
+    "3,49": "ID",
+    "4,53": "查看",
+    "4,56": "删除"
+  },
+  "Formulas": {
+    "4,1": "ROW(D5)"
+  },
+  "AttachInfos": {
+    "1,29": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "IconSize": 24.0,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "创建者、状态、出差人、出差地点、出差类型、出差事由"
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "出差信息表",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "RowCount": 10,
+        "ColumnCount": 58,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "FGC_Creator",
+                "GUID": "8cd4e06f-52af-47b0-af82-05a628cdd956"
+              },
+              "Value": "%CurrentUser.UserName%"
+            },
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "FGC_Creator",
+                    "GUID": "465c9bba-fc12-43b4-b2f8-ea3902e95083"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "状态",
+                    "GUID": "73489972-c009-4139-9e7c-5c5c3c4fc3b3"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "出差人",
+                    "GUID": "23b8c1fc-7026-4d0b-b09e-28b06792d16e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "出差地点",
+                    "GUID": "c2cee7b1-2e53-405d-9c67-eb13dfb6d572"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "出差类型",
+                    "GUID": "88ccf39d-6f7a-4fc4-883d-1fcc9adcf85f"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "出差信息表",
+                    "ColumnName": "出差事由",
+                    "GUID": "e696db21-95e8-40e8-8dbf-6328b6310252"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AD2"
+                  },
+                  "RightBracket": 1
+                }
+              ],
+              "RelationType": 1
+            }
+          ]
+        },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "出差信息表",
+                "ColumnName": "申请日期",
+                "GUID": "3f2f66bd-e9b1-4833-8820-5fa1bdcceb97"
+              },
+              "Order": 1
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionStripedStyle1",
+        "DoubleClickCommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "出差详情展示页"
+          }
+        ],
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "FGC_Creator",
+        "GUID": "7a847e48-4b57-4625-9ad3-32111da3e959"
+      }
+    },
+    "4,8": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "状态",
+        "GUID": "57c6609d-0740-490f-bee8-ba70ea45627a"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人",
+        "GUID": "dd69621a-058a-4dce-8e61-7a33513207fb"
+      }
+    },
+    "4,21": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "申请日期",
+        "GUID": "874cabbb-2414-4980-9d48-e134e3ef4fce"
+      }
+    },
+    "4,27": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差地点",
+        "GUID": "1844678c-1949-4fd8-8d0c-9d60101f85c2"
+      }
+    },
+    "4,33": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差类型",
+        "GUID": "4b2b5754-b66e-4dd7-812c-67d67397ff3b"
+      }
+    },
+    "4,38": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差事由",
+        "GUID": "cba797e1-ffe9-4232-a04c-b36df5d87181"
+      }
+    },
+    "4,49": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "ID",
+        "GUID": "fb84b92d-bea1-4646-8898-524c5c65d43a"
+      }
+    },
+    "4,51": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "流程实例ID",
+        "GUID": "22da4ffe-1be2-4327-b9c8-d47534891e4c"
+      }
+    },
+    "4,53": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+            "CurrentRowInfo": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ACT_HI_TASKINST_View",
+                    "ColumnName": "PROC_INST_ID_",
+                    "GUID": "66cb070b-9fb1-436b-b98d-e6d139332e5c"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=历史申请列表!AZ5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ACT_HI_TASKINST_View",
+                    "ColumnName": "ASSIGNEE_",
+                    "GUID": "475ed602-7ca7-4c07-a2c0-c03f5bd4d89a"
+                  },
+                  "Value": "%CurrentUser.UserName%"
+                }
+              ]
+            }
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "流程任务详情页"
+          }
+        ],
+        "Text": "查看",
+        "ClickMode": 1
+      }
+    },
+    "4,56": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "SubConditions": [
+                    {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=历史申请列表!I5"
+                          }
+                        ]
+                      },
+                      "value": "完成"
+                    },
+                    {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=历史申请列表!I5"
+                          }
+                        ]
+                      },
+                      "value": "申请中"
+                    },
+                    {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=历史申请列表!I5"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "RelationType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+                    "ShowConfirm": true,
+                    "ConfirmText": "您确定要删除吗？"
+                  }
+                ],
+                "ID": "c4b6efeb-667a-4360-82c2-db411309244d"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "由于在审批流程中，无法进行删除。"
+                  }
+                ],
+                "ID": "9092f27c-6624-4300-9aa8-5de9d07d0399"
+              }
+            ]
+          }
+        ],
+        "Text": "删除",
+        "ClickMode": 1
+      }
+    },
+    "14,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格1",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "Space": 20
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 1,
+        "Foreground": 5,
+        "TextIndent": 20,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "TextIndent": 20
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Formatter": 7,
+        "TextIndent": 20
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 8,
+        "TextIndent": 20,
+        "HorizontalAlignment": 9,
+        "Underline": true
+      },
+      {
+        "HorizontalAlignment": 10
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 35",
+        "[AUTO]General",
+        "@",
+        "black",
+        "Left",
+        "yyyy/MM/dd",
+        "Accent 1 0",
+        "Center",
+        "Right"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,29": 2,
+      "2,1": 3,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 3,
+      "2,7": 3,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "2,13": 3,
+      "3,1": 4,
+      "3,3": 4,
+      "3,8": 4,
+      "3,13": 4,
+      "3,21": 4,
+      "3,27": 4,
+      "3,33": 4,
+      "3,38": 4,
+      "3,49": 4,
+      "3,51": 4,
+      "3,53": 4,
+      "3,56": 4,
+      "4,1": 5,
+      "4,3": 5,
+      "4,8": 5,
+      "4,13": 5,
+      "4,21": 6,
+      "4,27": 5,
+      "4,33": 5,
+      "4,38": 5,
+      "4,49": 5,
+      "4,51": 5,
+      "4,53": 7,
+      "4,56": 7,
+      "14,1": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,1,2",
+    "4,3,1,5",
+    "4,13,1,8",
+    "4,21,1,6",
+    "4,27,1,6",
+    "4,33,1,5",
+    "4,38,1,11",
+    "4,8,1,5",
+    "4,49,1,2",
+    "14,1,1,58",
+    "1,1,1,13",
+    "5,1,8,58",
+    "1,29,1,30",
+    "4,51,1,2",
+    "4,53,1,3",
+    "4,56,1,3",
+    "3,1,1,2",
+    "3,3,1,5",
+    "3,8,1,5",
+    "3,13,1,8",
+    "3,21,1,6",
+    "3,27,1,6",
+    "3,33,1,5",
+    "3,38,1,11",
+    "3,49,1,2",
+    "3,51,1,2",
+    "3,53,1,3",
+    "3,56,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "出差管理系统母版页",
+    "Title": "申请列表",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//SFqh4OqxDt04PCRmVpOjcWp/p9llGvjtkPMTuDvXPlTUjOdIp/7NPgOFnINazBJo5NXuJViBCjlFv/dIuIS4tpqiEVsK+FxbmXVFV33tDWj4CBH2WgSRPYGqhWn6JBwgaAiqC0AJ5QofQ96rl4LA/EniFkeIA6eAEl/PPKeokEo6sK7nuKfquzmymB9R805dcrIYJhN/ArYe6fTPx576r9acUr+kS8uvhtpZtpFjEdZEZpDVrSYL3sHW7kV9fT/HTnpMMiGJ/nkOiARViS+KLQuviByk2mYEQNfzCUnZD7tscyA7itaWY7weT64oJl9KF+K5Fion3HE1pg+o2opIpspHfHFnKq81HEoFofCtCPydjCcmspmzWmUwDk+SqCp6ypJbLup9dN+EKKsnWBAoTLZQLQuXMBDCGSpAV1CJFTlL6kQ0M2cknu/M8qjgE+iaV1dJ6vKBX3WwKaVhNfijTOoGF+5WaESyorU84aN+PCHvz03y77y7qVvGwRpeVEq138J/wxC+by3C7+9Z4UCNDSVK6OWlz/Sp+f4TjBPfqfUWhFN9/yzUtCaP17XTjtBsMjNVp3nkBFIwf1q2BMO6fgaOqm2/QT2OWryxvZkueZ5nX5lUrDLWzD0TqRRME2Cf2FeVdB+ZF3k73KzEcqvCxQSVUSfZkeZJDg6m6B6BnLGUUm1sn3iTMvjF7eOYcNo80MnsXRHnDeei9u+g1jhW0uzDJldU8mV1ZXbflfVQE0+bZyhGazL/jtsaKJ/lyzTcMIb4EVAwrDNhNsojTUV7ZKGVs4lHCCogcgRZuWUU9ZpISdCjIBxMTlx/V4Sigl7GLIKkZZNe1ooPkTwgFYlpWE9hogjKfORlnEAhgLK6zd7wzuGyY6YyIIkWoRP6zFh+PxJFlIWQsAVmtAdm2K0Ivg==|920

@@ -1,0 +1,7 @@
+[
+  {
+    "ConnectionString": "Server=localhost;User ID=root;Password=root;Database=formula;Port=3306",
+    "DataBaseType": "6f9b2f11-4f6a-43db-9b65-bbd46872e09d",
+    "ID": "MySql1"
+  }
+]

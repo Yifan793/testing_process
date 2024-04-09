@@ -1,0 +1,246 @@
+{
+  "Name": "ACT_HI_COMMENT_View",
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
+      "enabledTypes": 2,
+      "isCreateRecordHidden": true,
+      "isBpmProcessView": true,
+      "isView": true,
+      "isExternal": true,
+      "detailTables": []
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "ACT_HI_COMMENT_View",
+                "ColumnName": "PROC_INST_ID_",
+                "GUID": "874fe4ed-6f48-446a-8152-1ff08de33ca2",
+                "RelationBinding": {
+                  "RelatedTable": "ACT_HI_PROCINST_View",
+                  "RelatedColumn": "ID_",
+                  "DisplayColumn": "START_USER_ID_"
+                }
+              },
+              "Value": "%CurrentUser%"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 3
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID_": 1,
+            "TYPE_": 5,
+            "TIME_": 5,
+            "USER_ID_": 5,
+            "TASK_ID_": 5,
+            "PROC_INST_ID_": 5,
+            "ACTION_": 5,
+            "MESSAGE_": 5,
+            "INTERNAL_COMMENT_": 5,
+            "SIGNATURE_PAD_": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "Administrator"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID_": 1,
+            "TYPE_": 5,
+            "TIME_": 5,
+            "USER_ID_": 5,
+            "TASK_ID_": 5,
+            "PROC_INST_ID_": 5,
+            "ACTION_": 5,
+            "MESSAGE_": 5,
+            "INTERNAL_COMMENT_": 5,
+            "SIGNATURE_PAD_": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID_": 1,
+            "TYPE_": 5,
+            "TIME_": 5,
+            "USER_ID_": 5,
+            "TASK_ID_": 5,
+            "PROC_INST_ID_": 5,
+            "ACTION_": 5,
+            "MESSAGE_": 5,
+            "INTERNAL_COMMENT_": 5,
+            "SIGNATURE_PAD_": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_Anonymous"
+        ]
+      }
+    ]
+  },
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 64,
+      "Name": "ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "TYPE_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DefaultValue": 0.0,
+      "Required": true,
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "TIME_",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserBindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "USER_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 64,
+      "Name": "TASK_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 64,
+      "Name": "PROC_INST_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "ACTION_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "text",
+      "MaxLength": 16000,
+      "Name": "MESSAGE_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "text",
+      "MaxLength": 16000,
+      "Name": "INTERNAL_COMMENT_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "longtext",
+      "MaxLength": 1073741823,
+      "Name": "SIGNATURE_PAD_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "MySql1",
+    "SourceTableName": "ACT_HI_COMMENT_View",
+    "SourceTableSchema": "",
+    "CreateViewSql": "select `act_hi_comment`.`ID_` AS `ID_`,`act_hi_comment`.`TYPE_` AS `TYPE_`,`act_hi_comment`.`TIME_` AS `TIME_`,`act_hi_comment`.`USER_ID_` AS `USER_ID_`,`act_hi_comment`.`TASK_ID_` AS `TASK_ID_`,`act_hi_comment`.`PROC_INST_ID_` AS `PROC_INST_ID_`,`act_hi_comment`.`ACTION_` AS `ACTION_`,`act_hi_comment`.`MESSAGE_` AS `MESSAGE_`,`act_hi_comment`.`INTERNAL_COMMENT_` AS `INTERNAL_COMMENT_`,`act_hi_comment`.`SIGNATURE_PAD_` AS `SIGNATURE_PAD_` from `act_hi_comment` union all select `act_hi_taskinst`.`ID_` AS `ID_`,'正在办理' AS `TYPE_`,`act_hi_taskinst`.`START_TIME_` AS `TIME_`,`act_hi_taskinst`.`ASSIGNEE_` AS `USER_ID_`,`act_hi_taskinst`.`ID_` AS `TASK_ID_`,`act_hi_taskinst`.`PROC_INST_ID_` AS `PROC_INST_ID_`,'正在办理' AS `ACTION_`,NULL AS `MESSAGE_`,NULL AS `INTERNAL_COMMENT_`,NULL AS `SIGNATURE_PAD_` from `act_hi_taskinst` where (`act_hi_taskinst`.`END_TIME_` is null)",
+    "ViewInfo": {
+      "ViewName": "ACT_HI_COMMENT_View",
+      "IsUpdatable": true,
+      "IsProcessView": true,
+      "QueryColumns": [
+        "ID_"
+      ]
+    }
+  },
+  "Relations": [
+    {
+      "PrimaryTable": "ACT_HI_PROCINST_View",
+      "PrimaryColumn": "ID_",
+      "ForeignTable": "ACT_HI_COMMENT_View",
+      "ForeignColumn": "PROC_INST_ID_",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "ACT_HI_TASKINST_View",
+      "PrimaryColumn": "ID_",
+      "ForeignTable": "ACT_HI_COMMENT_View",
+      "ForeignColumn": "TASK_ID_",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

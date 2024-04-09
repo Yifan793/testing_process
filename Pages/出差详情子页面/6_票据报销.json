@@ -1,0 +1,401 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      34
+    ],
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "54": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 56
+  },
+  "Values": {
+    "1,1": "票据报销",
+    "3,1": "出差人",
+    "3,7": "出差人数",
+    "3,13": "出差类型",
+    "3,19": "出差地点",
+    "3,25": "所属部门",
+    "3,31": "成本中心",
+    "3,37": "出差时间",
+    "4,43": "至",
+    "4,50": "共",
+    "4,53": "天"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人",
+        "GUID": "e954e07b-cc60-473b-9edb-e7bea403adfa"
+      }
+    },
+    "4,7": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人数",
+        "GUID": "12de853e-209d-4dd8-9469-a6446389f2a2"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差类型",
+        "GUID": "1890f0fb-4686-4efd-ba81-e45035a756f6"
+      }
+    },
+    "4,19": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差地点",
+        "GUID": "1abff7bc-9ecd-4c05-bd15-5e8cbbb6341c"
+      }
+    },
+    "4,25": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "部门",
+        "GUID": "f4420133-ef5c-4379-bca4-7f9449881a93"
+      }
+    },
+    "4,31": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "成本中心",
+        "GUID": "92d4e715-3ad7-4afd-bf36-0494553ecbad"
+      }
+    },
+    "4,37": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "开始时间",
+        "GUID": "fb7a9493-e5ac-4229-beb7-a64abca678cc"
+      }
+    },
+    "4,44": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "结束时间",
+        "GUID": "bcbd91ba-7149-4c66-a6d6-fe132a40570a"
+      }
+    },
+    "4,51": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差天数",
+        "GUID": "61fafac3-a7b5-4bf4-a2e2-ad617acc8da3"
+      }
+    },
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1",
+        "Tabs": [
+          "交通费明细",
+          "住宿费明细",
+          "生活费明细",
+          "招待费明细",
+          "其他费用明细"
+        ],
+        "OverflowMode": 0
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontWeight": 0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 4,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 4,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "FontWeight": 0,
+        "Formatter": 6
+      },
+      {
+        "Foreground": 7
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body",
+        "Left",
+        "#FFD8D8D8",
+        "yyyy-MM-dd",
+        "Center",
+        "[AUTO]General",
+        "#337AB7"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 0,
+      "3,7": 1,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 1,
+      "3,14": 2,
+      "3,15": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 1,
+      "3,20": 2,
+      "3,21": 2,
+      "3,22": 2,
+      "3,23": 2,
+      "3,24": 2,
+      "3,25": 1,
+      "3,26": 2,
+      "3,27": 2,
+      "3,28": 2,
+      "3,29": 2,
+      "3,30": 2,
+      "3,31": 1,
+      "3,32": 2,
+      "3,33": 2,
+      "3,34": 2,
+      "3,35": 2,
+      "3,36": 2,
+      "3,37": 1,
+      "3,38": 2,
+      "3,39": 2,
+      "3,40": 2,
+      "3,41": 2,
+      "3,42": 3,
+      "3,43": 4,
+      "4,7": 5,
+      "4,8": 6,
+      "4,9": 6,
+      "4,10": 6,
+      "4,11": 6,
+      "4,12": 6,
+      "4,13": 5,
+      "4,14": 6,
+      "4,15": 6,
+      "4,16": 6,
+      "4,17": 6,
+      "4,18": 6,
+      "4,19": 5,
+      "4,20": 6,
+      "4,21": 6,
+      "4,22": 6,
+      "4,23": 6,
+      "4,24": 6,
+      "4,25": 5,
+      "4,26": 6,
+      "4,27": 6,
+      "4,28": 6,
+      "4,29": 6,
+      "4,30": 6,
+      "4,31": 5,
+      "4,32": 6,
+      "4,33": 6,
+      "4,34": 6,
+      "4,35": 6,
+      "4,36": 6,
+      "4,37": 7,
+      "4,38": 6,
+      "4,39": 6,
+      "4,40": 6,
+      "4,41": 6,
+      "4,42": 8,
+      "4,43": 9,
+      "4,44": 10,
+      "4,50": 0,
+      "4,51": 11,
+      "4,53": 12,
+      "8,1": 13
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "FontSize": 12.0
+    }
+  },
+  "Spans": [
+    "3,1,1,6",
+    "3,7,1,6",
+    "3,13,1,6",
+    "3,19,1,6",
+    "3,25,1,6",
+    "3,31,1,6",
+    "3,37,1,6",
+    "4,1,1,6",
+    "4,7,1,6",
+    "4,13,1,6",
+    "4,19,1,6",
+    "4,25,1,6",
+    "4,31,1,6",
+    "4,44,1,5",
+    "4,37,1,6",
+    "4,51,1,2",
+    "8,1,25,54"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "票据报销",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "2740059d-89ad-40cd-9ede-02277af8d6bf.png",
+      "DisplayName": "票据报销背景色",
+      "StyleInfo": {
+        "Fill": "#FFF2F2F2"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1120,732"
+    },
+    {
+      "Name": "b2ec75d5-58fc-4d17-923c-a84abfb8ffe8.png",
+      "DisplayName": "标头信息",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1120,132"
+    },
+    {
+      "Name": "c017f4ab-b04b-4ac5-a73a-7633abfb9a5d.png",
+      "DisplayName": "明细背景色块",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,153",
+      "Size": "1120,559"
+    }
+  ]
+}//aOWywWO3aNxHcJJktNICof0pJHhhERTx8hu4iRNdvE1tAxZeyJhb7OLsf3qV/Lf1jkyzWeHgjs4iPv8hcciwFr2/oJIBckIQr2hIiYQhE9jq/lhRVHlu2DUD7fzzdrYRQ0IxgjZcv1GAC4a8UYnvPbfPejJts1hFqHVYrLNcgqdKX8zu2uGt+mevGzAK7S98iEtC1U+9x2jtArpXP4eBnP1sbIg01F38Mts2ZbdgA7PMtEhiE1gJbSs+DU2RTdrbBpllDW+XSC+CNJdLLqIdMVrRMJZ2Fv5xzL/2LS52a9UfAzopxibs0VlmmkdLKoxfHzGOJInidsGju3PnFMSUljy98fF0zlX2jgMoYtX55daG/WJJpYdaX2JBnkqykHK5s9uvagj3q/wFWmqmoYpwFzk9An8/Q+8FU/wKhDjzDTkuxmh+MYIWCxi8qb7CVo9VwYRUrO2tPFpiWusXPGuZ+2wk5ir1/wYu6Utr9G+jJzn/eyNRJhxw8x/YcKeSmEcINP+pp7B6vF2efbSZn3fhvonS1zThOfWWlJ8JPmNXj3RwTUUo3+agO9j1wr1wvaB9KSLC8wDaI9rbTk8yXJt23TEKLWySAOQUhlpB5/bt8Q+FBHijLnrobyjqaaaA94R41UQJu/zTyGQ+HL+Q41Et47Q4pGbTW/yeVqkAVFZs+UPCRLvH4jMvXeqGbVZpapUWgeHnBVv4r1MVp6T4YT6pW+1/nwHl+bTIwMh4jeu5oT9YXmYsueNhdVIYtiBOiHzTZ2ei1AOgxdgwANJgpiUowmjLEW5qSBWdeqXlyk5tVaSMw41G0CRVta1+85uB/RYNKKagdHAR3ilt9f7qpTE194QN5ZTKmbmSLrC3J/nbYVevqNVZk3FqF7IO8cxXyo2fItU+2MDWadu80lFOw7dmyw==|920

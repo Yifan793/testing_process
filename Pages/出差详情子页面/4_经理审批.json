@@ -1,0 +1,1922 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "50": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      63,
+      64
+    ],
+    "Count": 66
+  },
+  "Values": {
+    "1,1": "出差人",
+    "1,7": "出差人数",
+    "1,13": "出差类型",
+    "1,19": "出差地点",
+    "1,30": "所属部门",
+    "1,37": "成本中心",
+    "1,44": "出差时间",
+    "2,49": "至",
+    "2,57": "共",
+    "2,60": "天",
+    "6,1": "出差行程",
+    "6,45": "境外出差情况",
+    "8,45": "项目",
+    "8,50": "情况",
+    "9,45": "是否申请签证",
+    "10,45": "签证种类",
+    "16,1": "预定情况",
+    "16,45": "出差费用预算汇总表（含预定费用）",
+    "18,1": "费用",
+    "18,25": "是否需要合并到汇总表中",
+    "18,51": "CNY",
+    "18,55": "USD",
+    "18,59": "JPY",
+    "18,63": "key",
+    "23,45": "合计：",
+    "24,45": "借款额度：",
+    "27,1": "出差预算表",
+    "27,44": "出差借款额度表"
+  },
+  "Formulas": {
+    "19,59": "SUMIFS(N31,B31,AT20)",
+    "23,55": "SUM(BD20)",
+    "23,59": "SUM(BH20)",
+    "19,25": "T20&O20",
+    "19,51": "SUMIFS(F31,B31,AT20)+SUMIFS(J20,Z20,BL20)",
+    "23,51": "SUM(AZ20)",
+    "19,55": "SUMIFS(J31,B31,AT20)",
+    "19,63": "AT20&\"1\""
+  },
+  "AttachInfos": {
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人",
+        "GUID": "f075a453-d6e3-46a4-b967-4ae76431e36d"
+      }
+    },
+    "2,7": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人数",
+        "GUID": "9cfed6e1-88be-48de-9462-893a814b25ec"
+      }
+    },
+    "2,13": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差类型",
+        "GUID": "7565c31f-be14-422f-9959-c5ee8427ddc2"
+      }
+    },
+    "2,19": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差地点",
+        "GUID": "8908c28f-24a9-4e5d-9319-afa9a842691d"
+      }
+    },
+    "2,30": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "部门",
+        "GUID": "55354d93-ca4b-4879-8070-60ba12e46757"
+      }
+    },
+    "2,37": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "成本中心",
+        "GUID": "4d945f72-964c-48d5-a5f5-6ea68636cf6b"
+      }
+    },
+    "2,44": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "开始时间",
+        "GUID": "c1362ef3-4453-4203-9ff1-bd0fe44e70eb"
+      }
+    },
+    "2,50": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "结束时间",
+        "GUID": "ace70f03-cf4a-4f6c-9e2b-36816a24786a"
+      }
+    },
+    "2,58": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差天数",
+        "GUID": "f3e1b921-13b3-4310-8533-0c54826fb06a"
+      }
+    },
+    "8,1": {
+      "ListViewInfo": {
+        "Name": "出差行程表",
+        "TableName": "出差行程表",
+        "RowIndex": 8,
+        "ColumnIndex": 1,
+        "RowCount": 5,
+        "ColumnCount": 41,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "出差ID",
+          "MasterTable": "出差信息表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "9,1": {
+      "BindingInfo": {
+        "TableName": "出差行程表",
+        "ColumnName": "日期",
+        "GUID": "1615cfb2-d672-4493-8c52-3339595df131"
+      }
+    },
+    "9,7": {
+      "BindingInfo": {
+        "TableName": "出差行程表",
+        "ColumnName": "交通工具",
+        "GUID": "1b3cd3f3-ee3c-4259-89de-0b0929844cee",
+        "RelationBinding": {
+          "RelatedTable": "交通工具",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "交通工具"
+        }
+      }
+    },
+    "9,13": {
+      "BindingInfo": {
+        "TableName": "出差行程表",
+        "ColumnName": "起点",
+        "GUID": "d7620ffa-2e44-4ac2-8a5f-869dd2032c30"
+      }
+    },
+    "9,19": {
+      "BindingInfo": {
+        "TableName": "出差行程表",
+        "ColumnName": "到达",
+        "GUID": "45fff1a9-89f9-4c17-9ce7-79eceb1aaa78"
+      }
+    },
+    "9,30": {
+      "BindingInfo": {
+        "TableName": "出差行程表",
+        "ColumnName": "备注",
+        "GUID": "7b809783-c4e0-49f5-ad51-ded5e9b1bc85"
+      }
+    },
+    "9,50": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "是否申请签证",
+        "GUID": "a54ac29f-829b-4a10-8a56-16870047d334"
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1,
+        "ReadOnly": true
+      }
+    },
+    "10,50": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "签证种类",
+        "GUID": "55d4ad83-d551-4ea0-9e18-6e76afb83c36"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ReadOnly": true
+      }
+    },
+    "18,1": {
+      "ListViewInfo": {
+        "Name": "出差预定表",
+        "TableName": "出差预定表",
+        "RowIndex": 18,
+        "ColumnIndex": 1,
+        "RowCount": 7,
+        "ColumnCount": 41,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "出差ID",
+          "MasterTable": "出差信息表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "18,45": {
+      "ListViewInfo": {
+        "Name": "出差费用预算项目表",
+        "TableName": "出差费用预算项目表",
+        "RowIndex": 18,
+        "ColumnIndex": 45,
+        "RowCount": 5,
+        "ColumnCount": 20,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "19,1": {
+      "BindingInfo": {
+        "TableName": "出差预定表",
+        "ColumnName": "子项目ID",
+        "GUID": "1c43d37c-ce29-4b38-934a-e14dab6ed5d9",
+        "RelationBinding": {
+          "RelatedTable": "费用预算子项目表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "子项目"
+        }
+      }
+    },
+    "19,9": {
+      "BindingInfo": {
+        "TableName": "出差预定表",
+        "ColumnName": "费用（CNY）",
+        "GUID": "afc31aac-6250-425c-89c5-a96607215ec1"
+      }
+    },
+    "19,14": {
+      "BindingInfo": {
+        "TableName": "出差预定表",
+        "ColumnName": "是否付款",
+        "GUID": "91ebc807-a7a2-4532-b5cc-2e5172a08d45"
+      }
+    },
+    "19,19": {
+      "NameUsedInJavaScript": "",
+      "BindingInfo": {
+        "TableName": "出差预定表",
+        "ColumnName": "子项目ID",
+        "GUID": "71d25cb0-0bc2-4a79-a54b-2afc786c14bc",
+        "RelationBinding": {
+          "RelatedTable": "费用预算子项目表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "主项目ID",
+          "NextRelationBinding": {
+            "RelatedTable": "出差费用预算项目表",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "项目"
+          }
+        }
+      }
+    },
+    "19,30": {
+      "BindingInfo": {
+        "TableName": "出差预定表",
+        "ColumnName": "说明",
+        "GUID": "232fc497-b4ae-4d87-a623-27e9f5573e54"
+      }
+    },
+    "19,45": {
+      "TotalRowSetting": {
+        "StaticText": "合计"
+      },
+      "BindingInfo": {
+        "TableName": "出差费用预算项目表",
+        "ColumnName": "项目",
+        "GUID": "780180cc-0349-4812-958e-53fbaf5df9a0"
+      }
+    },
+    "19,51": {
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": " ¥#,##0.00_);[Red] ¥(#,##0.00)"
+        }
+      }
+    },
+    "19,55": {
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": " ¥#,##0.00_);[Red] ¥(#,##0.00)"
+        }
+      }
+    },
+    "19,59": {
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": " ¥#,##0.00_);[Red] ¥(#,##0.00)"
+        }
+      }
+    },
+    "24,51": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "CNY",
+        "GUID": "900f8222-0141-469e-bdb2-76fea56a4148"
+      }
+    },
+    "24,55": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "USD",
+        "GUID": "88185b11-8f67-4231-ac80-1de13bdf3c94"
+      }
+    },
+    "24,59": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "JPY",
+        "GUID": "c07daeda-1f7c-4f8d-a869-a528952cff31"
+      }
+    },
+    "29,1": {
+      "ListViewInfo": {
+        "Name": "出差预算表",
+        "TableName": "出差预算表",
+        "RowIndex": 29,
+        "ColumnIndex": 1,
+        "RowCount": 6,
+        "ColumnCount": 17,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "出差ID",
+          "MasterTable": "出差信息表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "29,44": {
+      "ListViewInfo": {
+        "Name": "出差借款额度表",
+        "TableName": "出差借款额度表",
+        "RowIndex": 29,
+        "ColumnIndex": 44,
+        "RowCount": 6,
+        "ColumnCount": 15,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "出差ID",
+          "MasterTable": "出差信息表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "30,1": {
+      "BindingInfo": {
+        "TableName": "出差预算表",
+        "ColumnName": "子项目ID",
+        "GUID": "c743b2b1-a3c9-44aa-92a2-89726eb03778",
+        "RelationBinding": {
+          "RelatedTable": "费用预算子项目表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "主项目ID",
+          "NextRelationBinding": {
+            "RelatedTable": "出差费用预算项目表",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "项目"
+          }
+        }
+      }
+    },
+    "30,5": {
+      "BindingInfo": {
+        "TableName": "出差预算表",
+        "ColumnName": "CNY合计",
+        "GUID": "cbd95710-36d5-4ab3-8a18-6039a740e4bb"
+      }
+    },
+    "30,9": {
+      "BindingInfo": {
+        "TableName": "出差预算表",
+        "ColumnName": "USD合计",
+        "GUID": "46925713-3761-4e10-9030-9d7641002843"
+      }
+    },
+    "30,13": {
+      "BindingInfo": {
+        "TableName": "出差预算表",
+        "ColumnName": "JPY合计",
+        "GUID": "81aa9937-d196-46ef-9158-fb7426403a7d"
+      }
+    },
+    "30,44": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "出差ID",
+        "GUID": "22873337-63f2-4634-b789-0d138e7f5b0e"
+      }
+    },
+    "30,48": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "CNY",
+        "GUID": "7d5087bc-a112-4efe-ab34-6a15111ed230"
+      }
+    },
+    "30,52": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "USD",
+        "GUID": "9ac3d2b3-8a0c-4924-b10a-231a02de9db0"
+      }
+    },
+    "30,55": {
+      "BindingInfo": {
+        "TableName": "出差借款额度表",
+        "ColumnName": "JPY",
+        "GUID": "59bb4a24-386e-445a-bbed-dfd9940dd02c"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 6,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "FontWeight": 1,
+        "Formatter": 6,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontWeight": 1
+      },
+      {
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "Formatter": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "Formatter": 4,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 9,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "Formatter": 9,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "FontWeight": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 10,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 11,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 12,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 13,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null
+      },
+      {
+        "FontSize": -1.0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 11,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 12,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 13,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 13,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "FontWeight": 1,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 11,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 12,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 13,
+        "TextIndent": 10,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 6
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Left",
+        "#FFD8D8D8",
+        "yyyy-MM-dd",
+        "Center",
+        "[AUTO]General",
+        "Accent 1 80 51",
+        "black",
+        "@",
+        "[=1]\"已付款\";[=0]\"未付款\"",
+        " ¥#,##0.00_);[Red] ¥(#,##0.00)",
+        "\"US$\"#,##0.00;\"US$\"-#,##0.00",
+        "\"JPY \"#,##0;\"JPY \"-#,##0"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "0,41": 0,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 0,
+      "0,48": 0,
+      "0,49": 0,
+      "0,50": 0,
+      "0,51": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "0,55": 0,
+      "0,56": 0,
+      "0,57": 0,
+      "0,58": 0,
+      "0,59": 0,
+      "0,60": 0,
+      "0,61": 0,
+      "0,62": 0,
+      "0,63": 0,
+      "0,64": 0,
+      "0,65": 0,
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 2,
+      "1,8": 3,
+      "1,9": 3,
+      "1,10": 3,
+      "1,11": 3,
+      "1,12": 3,
+      "1,13": 2,
+      "1,14": 3,
+      "1,15": 3,
+      "1,16": 3,
+      "1,17": 3,
+      "1,18": 3,
+      "1,19": 2,
+      "1,20": 4,
+      "1,21": 4,
+      "1,22": 4,
+      "1,23": 4,
+      "1,24": 4,
+      "1,25": 3,
+      "1,26": 3,
+      "1,27": 3,
+      "1,28": 3,
+      "1,29": 3,
+      "1,30": 2,
+      "1,31": 4,
+      "1,32": 4,
+      "1,33": 4,
+      "1,34": 4,
+      "1,35": 3,
+      "1,36": 3,
+      "1,37": 2,
+      "1,38": 3,
+      "1,39": 3,
+      "1,40": 3,
+      "1,41": 3,
+      "1,42": 3,
+      "1,43": 3,
+      "1,44": 2,
+      "1,45": 4,
+      "1,46": 4,
+      "1,47": 4,
+      "1,48": 5,
+      "1,49": 0,
+      "1,50": 0,
+      "1,51": 6,
+      "2,0": 0,
+      "2,1": 6,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 7,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "2,13": 7,
+      "2,14": 3,
+      "2,15": 3,
+      "2,16": 3,
+      "2,17": 3,
+      "2,18": 3,
+      "2,19": 7,
+      "2,20": 4,
+      "2,21": 4,
+      "2,22": 4,
+      "2,23": 4,
+      "2,24": 4,
+      "2,25": 3,
+      "2,26": 3,
+      "2,27": 3,
+      "2,28": 3,
+      "2,29": 3,
+      "2,30": 7,
+      "2,31": 4,
+      "2,32": 4,
+      "2,33": 4,
+      "2,34": 4,
+      "2,35": 3,
+      "2,36": 3,
+      "2,37": 7,
+      "2,38": 3,
+      "2,39": 3,
+      "2,40": 3,
+      "2,41": 3,
+      "2,42": 3,
+      "2,43": 3,
+      "2,44": 8,
+      "2,45": 4,
+      "2,46": 4,
+      "2,47": 4,
+      "2,48": 5,
+      "2,49": 9,
+      "2,50": 10,
+      "2,51": 11,
+      "2,52": 11,
+      "2,53": 11,
+      "2,54": 11,
+      "2,55": 11,
+      "2,57": 12,
+      "2,58": 13,
+      "2,59": 11,
+      "2,60": 12,
+      "2,61": 12,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0,
+      "3,30": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,34": 0,
+      "3,35": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,39": 0,
+      "3,40": 0,
+      "3,41": 0,
+      "3,42": 0,
+      "3,43": 0,
+      "3,44": 0,
+      "3,45": 0,
+      "3,46": 0,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,50": 0,
+      "3,51": 0,
+      "3,52": 0,
+      "3,53": 0,
+      "3,54": 0,
+      "3,55": 0,
+      "3,56": 0,
+      "3,57": 0,
+      "3,58": 0,
+      "3,59": 0,
+      "3,60": 0,
+      "3,61": 0,
+      "3,62": 0,
+      "3,63": 0,
+      "3,64": 0,
+      "3,65": 0,
+      "6,1": 14,
+      "6,45": 14,
+      "8,1": 15,
+      "8,7": 15,
+      "8,13": 15,
+      "8,19": 15,
+      "8,30": 15,
+      "8,42": 16,
+      "8,45": 17,
+      "8,46": 18,
+      "8,47": 18,
+      "8,48": 18,
+      "8,49": 18,
+      "8,50": 19,
+      "8,51": 20,
+      "8,52": 20,
+      "8,53": 20,
+      "8,54": 20,
+      "8,55": 20,
+      "8,56": 20,
+      "8,57": 20,
+      "8,58": 20,
+      "8,59": 20,
+      "8,60": 20,
+      "8,61": 20,
+      "8,62": 20,
+      "8,63": 21,
+      "8,64": 21,
+      "9,1": 22,
+      "9,7": 15,
+      "9,13": 15,
+      "9,19": 15,
+      "9,20": 15,
+      "9,21": 15,
+      "9,22": 15,
+      "9,23": 15,
+      "9,24": 15,
+      "9,30": 15,
+      "9,31": 15,
+      "9,32": 15,
+      "9,33": 15,
+      "9,34": 15,
+      "9,42": 16,
+      "9,45": 23,
+      "9,46": 20,
+      "9,47": 20,
+      "9,48": 20,
+      "9,49": 20,
+      "9,50": 24,
+      "9,51": 20,
+      "9,52": 20,
+      "9,53": 20,
+      "9,54": 20,
+      "9,55": 20,
+      "9,56": 20,
+      "9,57": 20,
+      "9,58": 20,
+      "9,59": 20,
+      "9,60": 20,
+      "9,61": 20,
+      "9,62": 20,
+      "9,63": 6,
+      "9,64": 6,
+      "10,42": 16,
+      "10,45": 25,
+      "10,46": 20,
+      "10,47": 20,
+      "10,48": 20,
+      "10,49": 20,
+      "10,50": 26,
+      "10,51": 20,
+      "10,52": 20,
+      "10,53": 20,
+      "10,54": 20,
+      "10,55": 20,
+      "10,56": 20,
+      "10,57": 20,
+      "10,58": 20,
+      "10,59": 20,
+      "10,60": 20,
+      "10,61": 20,
+      "10,62": 20,
+      "10,63": 27,
+      "10,64": 27,
+      "11,42": 16,
+      "12,42": 16,
+      "16,1": 14,
+      "16,45": 28,
+      "16,46": 11,
+      "16,47": 11,
+      "16,48": 11,
+      "16,49": 11,
+      "16,50": 11,
+      "16,51": 11,
+      "16,52": 11,
+      "16,53": 11,
+      "16,54": 11,
+      "16,55": 11,
+      "16,56": 11,
+      "16,57": 11,
+      "16,58": 11,
+      "16,59": 11,
+      "16,60": 11,
+      "16,61": 11,
+      "16,62": 11,
+      "16,63": 11,
+      "16,64": 11,
+      "17,45": 11,
+      "17,46": 11,
+      "17,47": 11,
+      "17,48": 11,
+      "17,49": 11,
+      "17,50": 11,
+      "17,51": 11,
+      "17,52": 11,
+      "17,53": 11,
+      "17,54": 11,
+      "17,55": 11,
+      "17,56": 11,
+      "17,57": 11,
+      "17,58": 11,
+      "17,59": 11,
+      "17,60": 11,
+      "17,61": 11,
+      "17,62": 11,
+      "17,63": 11,
+      "17,64": 11,
+      "18,1": 13,
+      "18,25": 13,
+      "18,30": 13,
+      "18,45": 13,
+      "18,46": 11,
+      "18,47": 11,
+      "18,48": 11,
+      "18,49": 11,
+      "18,50": 11,
+      "18,51": 13,
+      "18,52": 11,
+      "18,53": 11,
+      "18,54": 11,
+      "18,55": 29,
+      "18,56": 11,
+      "18,57": 11,
+      "18,58": 11,
+      "18,59": 29,
+      "18,60": 11,
+      "18,62": 11,
+      "19,1": 15,
+      "19,9": 13,
+      "19,14": 30,
+      "19,19": 13,
+      "19,20": 11,
+      "19,21": 11,
+      "19,22": 11,
+      "19,23": 11,
+      "19,24": 11,
+      "19,25": 13,
+      "19,30": 31,
+      "19,31": 32,
+      "19,32": 32,
+      "19,33": 32,
+      "19,34": 32,
+      "19,35": 32,
+      "19,36": 32,
+      "19,37": 32,
+      "19,38": 32,
+      "19,39": 32,
+      "19,40": 32,
+      "19,41": 32,
+      "19,45": 31,
+      "19,46": 33,
+      "19,47": 33,
+      "19,48": 33,
+      "19,49": 33,
+      "19,50": 33,
+      "19,51": 34,
+      "19,52": 33,
+      "19,53": 33,
+      "19,54": 33,
+      "19,55": 35,
+      "19,56": 33,
+      "19,57": 33,
+      "19,58": 33,
+      "19,59": 36,
+      "19,60": 33,
+      "19,61": 33,
+      "19,62": 37,
+      "20,36": 38,
+      "20,37": 38,
+      "20,38": 38,
+      "20,39": 38,
+      "20,40": 38,
+      "20,41": 38,
+      "20,45": 11,
+      "20,46": 11,
+      "20,47": 11,
+      "20,48": 11,
+      "20,49": 11,
+      "20,50": 11,
+      "20,51": 11,
+      "20,52": 11,
+      "20,53": 11,
+      "20,54": 11,
+      "20,55": 11,
+      "20,56": 11,
+      "20,57": 11,
+      "20,58": 11,
+      "20,59": 11,
+      "20,60": 11,
+      "20,61": 11,
+      "20,62": 11,
+      "20,63": 38,
+      "20,64": 38,
+      "21,37": 38,
+      "21,38": 38,
+      "21,39": 38,
+      "21,40": 38,
+      "21,41": 38,
+      "22,36": 38,
+      "22,37": 38,
+      "22,38": 38,
+      "22,39": 38,
+      "22,40": 38,
+      "22,41": 38,
+      "22,45": 11,
+      "22,46": 11,
+      "22,47": 11,
+      "22,48": 11,
+      "22,49": 11,
+      "22,50": 11,
+      "22,51": 11,
+      "22,52": 11,
+      "22,53": 11,
+      "22,54": 11,
+      "22,55": 11,
+      "22,56": 11,
+      "22,57": 11,
+      "22,58": 11,
+      "22,59": 11,
+      "22,60": 11,
+      "22,61": 11,
+      "22,62": 11,
+      "22,63": 38,
+      "22,64": 38,
+      "23,36": 38,
+      "23,37": 38,
+      "23,38": 38,
+      "23,39": 38,
+      "23,40": 38,
+      "23,41": 38,
+      "23,45": 39,
+      "23,46": 40,
+      "23,47": 40,
+      "23,48": 40,
+      "23,49": 40,
+      "23,50": 40,
+      "23,51": 41,
+      "23,52": 42,
+      "23,53": 42,
+      "23,54": 43,
+      "23,55": 44,
+      "23,56": 42,
+      "23,57": 42,
+      "23,58": 43,
+      "23,59": 45,
+      "23,60": 42,
+      "23,61": 42,
+      "23,62": 43,
+      "23,63": 46,
+      "23,64": 46,
+      "24,36": 38,
+      "24,37": 38,
+      "24,38": 38,
+      "24,39": 38,
+      "24,40": 38,
+      "24,41": 38,
+      "24,45": 47,
+      "24,46": 20,
+      "24,47": 20,
+      "24,48": 20,
+      "24,49": 20,
+      "24,50": 20,
+      "24,51": 48,
+      "24,52": 40,
+      "24,53": 40,
+      "24,54": 40,
+      "24,55": 49,
+      "24,56": 40,
+      "24,57": 40,
+      "24,58": 40,
+      "24,59": 50,
+      "24,60": 40,
+      "24,61": 20,
+      "24,62": 40,
+      "24,63": 46,
+      "24,64": 46,
+      "24,65": 33,
+      "25,45": 51,
+      "25,46": 51,
+      "25,47": 51,
+      "25,48": 51,
+      "25,49": 51,
+      "25,50": 51,
+      "25,51": 51,
+      "25,52": 51,
+      "25,53": 51,
+      "25,54": 51,
+      "25,55": 51,
+      "25,56": 51,
+      "25,57": 51,
+      "25,58": 51,
+      "25,59": 51,
+      "25,60": 51,
+      "25,62": 51,
+      "25,65": 16,
+      "27,44": 52,
+      "27,45": 52,
+      "27,46": 11,
+      "27,47": 11,
+      "27,48": 11,
+      "27,49": 11,
+      "27,50": 11,
+      "27,51": 11,
+      "27,52": 11,
+      "27,53": 11,
+      "27,54": 11,
+      "27,55": 11,
+      "27,56": 11,
+      "27,57": 11,
+      "27,58": 11,
+      "28,44": 11,
+      "28,45": 11,
+      "28,46": 11,
+      "28,47": 11,
+      "28,48": 11,
+      "28,49": 11,
+      "28,50": 11,
+      "28,51": 11,
+      "28,52": 11,
+      "28,53": 11,
+      "28,54": 11,
+      "28,55": 11,
+      "28,56": 11,
+      "28,57": 11,
+      "28,58": 11,
+      "29,44": 11,
+      "29,45": 11,
+      "29,46": 11,
+      "29,47": 11,
+      "29,48": 11,
+      "29,49": 11,
+      "29,50": 11,
+      "29,51": 11,
+      "29,52": 11,
+      "29,53": 11,
+      "29,54": 11,
+      "29,55": 11,
+      "29,56": 11,
+      "29,57": 11,
+      "29,58": 11,
+      "30,44": 11,
+      "30,45": 11,
+      "30,46": 11,
+      "30,47": 11,
+      "30,48": 11,
+      "30,49": 11,
+      "30,50": 11,
+      "30,51": 11,
+      "30,52": 11,
+      "30,53": 11,
+      "30,54": 11,
+      "30,55": 33,
+      "30,56": 33,
+      "30,57": 33,
+      "30,58": 33,
+      "31,44": 11,
+      "31,45": 11,
+      "31,46": 11,
+      "31,47": 11,
+      "31,48": 11,
+      "31,49": 11,
+      "31,50": 11,
+      "31,51": 11,
+      "31,52": 11,
+      "31,53": 11,
+      "31,54": 11,
+      "31,55": 11,
+      "31,56": 11,
+      "31,57": 11,
+      "31,58": 11,
+      "32,26": 11,
+      "32,44": 11,
+      "32,45": 11,
+      "32,46": 11,
+      "32,47": 11,
+      "32,48": 11,
+      "32,49": 11,
+      "32,50": 11,
+      "32,51": 11,
+      "32,52": 11,
+      "32,53": 11,
+      "32,54": 11,
+      "32,55": 11,
+      "32,56": 11,
+      "32,57": 11,
+      "32,58": 11,
+      "33,44": 11,
+      "33,45": 11,
+      "33,46": 11,
+      "33,47": 11,
+      "33,48": 11,
+      "33,49": 11,
+      "33,50": 11,
+      "33,51": 11,
+      "33,52": 11,
+      "33,53": 11,
+      "33,54": 11,
+      "33,55": 11,
+      "33,56": 11,
+      "33,57": 11,
+      "33,58": 11,
+      "34,44": 11,
+      "34,45": 11,
+      "34,46": 11,
+      "34,47": 11,
+      "34,48": 11,
+      "34,49": 11,
+      "34,50": 11,
+      "34,51": 11,
+      "34,52": 11,
+      "34,53": 11,
+      "34,54": 11,
+      "34,55": 11,
+      "34,56": 11,
+      "34,57": 11,
+      "34,58": 11
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 12.0
+    }
+  },
+  "Spans": [
+    "1,1,1,6",
+    "1,7,1,6",
+    "1,13,1,6",
+    "1,19,1,11",
+    "1,30,1,7",
+    "1,37,1,7",
+    "1,44,1,5",
+    "1,51,1,15",
+    "2,1,1,6",
+    "2,7,1,6",
+    "2,13,1,6",
+    "2,19,1,11",
+    "2,30,1,7",
+    "2,37,1,7",
+    "2,44,1,5",
+    "2,50,1,6",
+    "2,58,1,2",
+    "8,45,1,5",
+    "8,50,1,13",
+    "9,1,1,6",
+    "9,7,1,6",
+    "9,13,1,6",
+    "9,19,1,11",
+    "9,30,1,12",
+    "9,45,1,5",
+    "9,50,1,13",
+    "10,1,3,41",
+    "10,45,1,5",
+    "10,50,1,13",
+    "19,45,1,6",
+    "19,51,1,4",
+    "19,55,1,4",
+    "19,59,1,4",
+    "19,63,1,2",
+    "20,45,3,20",
+    "23,45,1,6",
+    "23,51,1,4",
+    "23,55,1,4",
+    "23,59,1,4",
+    "24,45,1,6",
+    "24,51,1,4",
+    "24,55,1,4",
+    "24,59,1,4",
+    "30,1,1,4",
+    "30,5,1,4",
+    "30,9,1,4",
+    "30,13,1,5",
+    "30,44,1,4",
+    "30,48,1,4",
+    "30,52,1,3",
+    "30,55,1,4",
+    "31,1,4,17",
+    "31,44,4,15",
+    "19,25,1,5",
+    "19,30,1,12",
+    "20,1,5,41",
+    "19,19,1,6",
+    "19,14,1,5",
+    "19,9,1,5",
+    "19,1,1,8",
+    "8,1,1,6",
+    "8,7,1,6",
+    "8,13,1,6",
+    "8,19,1,11",
+    "8,30,1,12",
+    "18,1,1,8",
+    "18,9,1,5",
+    "18,14,1,5",
+    "18,19,1,6",
+    "18,25,1,5",
+    "18,30,1,12",
+    "18,45,1,6",
+    "18,51,1,4",
+    "18,55,1,4",
+    "18,59,1,4",
+    "18,63,1,2",
+    "29,1,1,4",
+    "29,5,1,4",
+    "29,9,1,4",
+    "29,13,1,5",
+    "29,44,1,4",
+    "29,48,1,4",
+    "29,52,1,3",
+    "29,55,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "经理审批",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "出差借款额度表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "737a6915-d5e0-4a7a-a717-3aeb90e7886a.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF2F2F2"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1320,745"
+    },
+    {
+      "Name": "BackgroundPicture0",
+      "DisplayName": "标头信息",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1320,100"
+    },
+    {
+      "Name": "2ef13de1-9e89-4070-9121-b9f32e71db02.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,120",
+      "Size": "860,232"
+    },
+    {
+      "Name": "dfc1492d-fca1-4758-9a71-3625fbd43c21.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,372",
+      "Size": "861,352"
+    },
+    {
+      "Name": "901df0fa-8380-4609-aaa8-97906d1d77da.png",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "880,372",
+      "Size": "440,352"
+    },
+    {
+      "Name": "e122a6a7-9fbd-433b-aabb-e018e25919a2.png",
+      "DisplayName": "背景图5",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "880,120",
+      "Size": "440,232"
+    }
+  ]
+}//3+E4HUKgCsgHmfXdE3sNo2a5vtIJqqCF6iBrH95Pui6OWzViCp6ieVtCImnfIQV3stvB6GnH7HY4Hz8OLvTRsAYeKDypk4oP5LL+IxtlcYXkpcZp+IU4axcqHtPNCTLlkChgr6umVxl1CWyw/iyTkJoCXnsmhcv/dp2ObWGQuVv1h8aZvApxPBV1nACA3L7wOCc0WaQ7dkgndZyNNiwHoqm4Fr//IX1Tl1Zz+XeMK5VCsj8FzIHyKpYrUmTsj4KpgwLwBg5mpPDAl1r8Ljxvujw7mhHnFocE23IDO57cQC6uhnqVZQytm7/COMZWXHbS2InV0R5QgaCVVIsEFm4+g7dUom78hWl5llBf1QUUFcdx7Y6aeZ/PV3m5cUNY72cm6B0BHtrUA4EhbY3MTj19g38L0kijzaoC0KICfZvXkM1aAB69m7jUbUhbsTxZxOKx3lgbUmWSU00a77fS7mPS/Zaf+9b5wYnkrxkADLmJxHHTgYKiiDNIq2hx/hKjQTnIYGZL1mgkK951GyJGuB23wr7s/hzxhsLZktTtjy1VjbdTG6GDw1klmI4gZc19DBOLw2fNUT0P5ay7GF4yqlXR2TSafj6gIxC4EUey8fQQoJmWAW0YNseToOObQdG+lHvaKZxOR+dEW/q2PhfZyaATcSIsxdDLoDS84aXgzDU+ehjt1+tgZiEIuGSuJsBe4OBoslLSQvCHejUne+zra+HExEvWdZfzuqpBNDvvRYEUED5aTY/1Fg6UsIKyzgeBRhewrxwQkSNdxVlqWyndP9wAREdokPpX5VW/XzQEE8vWSi8+9dDxSuE12ILnzucJf5vY/iTr6DPyy6kCfV/0VTgG4+tzooy4/7VRnHt3gUZmYGwwXKGOibpwPs/mXB1YLfd1iqNYxJ4Ya/JfI2HPRjiAGg==|920

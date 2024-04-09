@@ -1,0 +1,93 @@
+{
+  "Rows": {
+    "Count": 16
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      }
+    },
+    "Count": 24
+  },
+  "AttachInfos": {
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Application/145_check_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1 0"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,2,9,20"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//YW/rMoN3TIXvEG8pMO2l936J+EUd6C4HRXpqFu8pFGdAfRPZ63aCydr8ucDLzbMjfP1R8xW862cYzqFPzN9NyI/kZlXavGCq1XAgvGwkL1cwnpAPGg2j//LEedxsHaHauVibm0Lk05LcZhndP4bnnwKbHUkM9fXE3LdaRxxPRfgD0nTRqeWrSDaS3q2LslGCUCyUZqKO5cj4PpCSVG188tk7BeaOJKNDKBRu/YrLu7NDAtM/BnCVl19YaDdMiO1Oe8E0jGZ3rsyTqezsEOwXzXHAVzs6VavCa7Md7SwVWQ57C7mHsbXQnk/D/a1bYoPGMBbmQuWiW6BfGPokklVyzT9nuaDwqfqpNhxjoZv2f2OlCBGWEGr0pRtmlhoR70Uyi3oGFm/1kRD6TVTQvI0tE/KX0k3uSKB8R/RdQ228XPHNriqumrbMrukvRA+MRRl1zCVbPjraRXP8YepXO0mNnxKdvHHcJ9bxrBBT7tf1nCSaAoC7YopJRL0SWe2e1EEBcDtF3TEr/YWxKJPxe18kM/Cut0LPUBjrjmNQ9yP0cjN3xsDdTPTpyXRGpHPuEUaB3hdM2DEdc0BT0KbZ9RtDdUtwjDZIbeDfrQzKfsVwviWHEBQVDz/DxEajL5rp/scE7mePz2BocqeSXiR9LBWPsyXlxT749Uptsx1HKi/fpQ/ZEbxcOhvuemnX5vd0Q7mjqU0HfI8CEcc/SfU3FzDgCUa0xqeg8F5LDRb6SSJAn8ykER97Z3JzaOXq3ZfCyF1ykTKsebZApcBK5GEW3OHEchOXgoOMBQrmB7vfck9wVRULVcL3PYMHAmdP8dJm2iFpEUpTLBqr2y4d8WsyZCS0ZKxOPXI1wuxUbxVyAV+Dk3OPgC95Gjw9CgHyoU9acb3ec3o+Qf1ayUhwJXnfVZwphQ==|920

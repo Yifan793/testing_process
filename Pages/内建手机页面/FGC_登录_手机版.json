@@ -1,0 +1,336 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 28
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "5,3": "出差管理系统",
+    "17,3": "登录",
+    "20,3": "忘记密码",
+    "25,1": "默认账户：Administrator\n默认密码：123456"
+  },
+  "AttachInfos": {
+    "9,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Navigation/169_user_2.svg",
+          "BuiltIn": true,
+          "Color": "#FF7F7F7F"
+        },
+        "IconSize": 18.0,
+        "TemplateKey": "_RS_NewUnderline",
+        "WaterMark": "请输入账号",
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "12,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "#FF7F7F7F"
+        },
+        "IconSize": 18.0,
+        "TemplateKey": "_RS_NewUnderline",
+        "WaterMark": "请输入密码",
+        "ForguncyAttribute": "LogIn_Password"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "15,3": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "保持登录状态",
+        "Style": 1,
+        "ForguncyAttribute": "LogIn_RememberMe"
+      }
+    },
+    "17,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "LogIn_Button"
+      }
+    },
+    "20,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_忘记密码_手机版"
+          }
+        ],
+        "Text": "忘记密码",
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": 4,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 5,
+        "Formatter": 6,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 7,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Formatter": 8,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Formatter": 8,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 9,
+        "Formatter": 8,
+        "HorizontalAlignment": 3,
+        "Underline": true,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Foreground": 10,
+        "Formatter": 8,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "#FF000000",
+        "Center",
+        "Text 1 35",
+        "Text 1 15",
+        "@",
+        "#FF7F7F7F",
+        "[AUTO]General",
+        "#FF538BD5",
+        "Background 1 0"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "6,17": 1,
+      "9,3": 2,
+      "12,3": 2,
+      "15,3": 3,
+      "17,3": 4,
+      "20,3": 5,
+      "21,3": 6,
+      "25,1": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,3,2,13",
+    "9,3,2,13",
+    "12,3,2,13",
+    "15,3,1,13",
+    "17,3,2,13",
+    "20,3,1,13",
+    "25,1,2,17"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "登录",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "79269746-a97a-427b-8511-b7559b479946",
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "380,560"
+    },
+    {
+      "Name": "b5fe3b5d-1158-427c-8f0d-c7a707443514",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,60",
+      "Size": "340,400"
+    }
+  ]
+}//3ELk/WgCG7o8B9p5IWq1yTVkSGDU1VcjqveTKu9/IlXMZWqKm9IltrbW6ucK8KiVMQLcRjrZB1ZWoNjdlL3ajHEulvVCZTERudPyFerg3+PxipTeq6k/MkuchZRagc2AGy+n4YUWdX8lDrHrdl83G+PT9Jj34C3cjiMUh4F3mqwwA61nXEcLx42UUZufVVDDIEjLgtgz9SAtBtSII9pc/O7yUZVzdnRouGrPvtkexq1PtRvHwaGqI6Zh7kctq+Tt+kvRoMleG/UJwBeP4YRgrlA7v2S8NstmeoTSBPp5y/2JLhrTiK9xehvC0jkvq9LtbIXHGvzq30HglHe4tEQuTGdxcgtciXn8g5WyKmFP/jvmblvTsA8VvK7PzxdcED97215HaDJdK54tSzqzjMTD8/4+eWAb7LS87UesA/xrwmIiz8wOb3yPRTyadgBkt3VxwAKvTgyGKIJtI/srY2tHXCrdrsUkgvF+xfzBVTkgVdj7HLY/WSKc5o1q/x6fB/TjlXPtytcQX7LhoY07vaqysE1hUgVEihT8jcV7VL2bHZF82cQqJkIKr2KfV0fexlTd3gbvCOyAk+RXdgBwVjcpkcTQTF3pAevnC7+fJWAEpEnNVDe/hC+g5g9KTi24MWjnDTmjZkGFBpfPE5V8tfVdv9jzTw9/YjiHB7Aw6HweQ4Iq1w3a8EHU3lipOZDnHogxtGQkwFJcRn1M6ej5nfzvBd+Wr/RcxJmCHGHEIbY2/z1oJ+ydQRkEY1Pa/yXxfcwmkhIqN5c05faPiU/vwrsZINLHEgDueNrvIjlA4eobxNiPlo73MWL2So+jEgGR1OZwAIbCq7SrkEITLmQ8uGIoGQKJL7/8HZjQjSK+V5A25eMswultcTwOD8VvDctxxwjht0v5EKuaMgfSRfIbGITTZw==|920

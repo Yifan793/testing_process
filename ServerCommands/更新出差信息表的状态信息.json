@@ -1,0 +1,70 @@
+{
+  "Name": "更新出差信息表的状态信息",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "出差ID",
+          "DataValidationInfo": {
+            "IgnoreBlank": false
+          }
+        },
+        {
+          "Name": "状态",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "出差信息表",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "出差信息表",
+          "ColumnName": "ID",
+          "GUID": "a13ef4cb-b299-458e-9024-0b33a0e4714d"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=出差ID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "出差信息表",
+            "ColumnName": "状态",
+            "GUID": "293053cd-2589-45f0-9607-8c829410a8d6"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=状态"
+          }
+        }
+      ]
+    }
+  ]
+}
