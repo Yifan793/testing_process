@@ -4352,7 +4352,7 @@
                                           }
                                         ],
                                         "Comments": "人均计算",
-                                        "ID": "887078bb-f03f-4cb2-918b-0c8b203e1698"
+                                        "ID": "b478af0d-da95-4ba0-b632-a0d79925839e"
                                       },
                                       {
                                         "CommandList": [
@@ -4401,13 +4401,13 @@
                                             ]
                                           }
                                         ],
-                                        "ID": "263b7bf9-8cf3-4a8e-87b8-5ffe8590ed85"
+                                        "ID": "a3aef044-75f7-46b5-98ad-6b83abb33819"
                                       }
                                     ]
                                   }
                                 ],
                                 "Comments": "按天数计算，如餐费",
-                                "ID": "704569f0-ae51-40a6-9a0a-6247237797d5"
+                                "ID": "e7468c82-b4f2-4335-9abf-2d111fe694de"
                               },
                               {
                                 "Condition": {
@@ -4479,7 +4479,7 @@
                                           }
                                         ],
                                         "Comments": "人均标准",
-                                        "ID": "97235a9a-9bb5-422b-bc87-9da9cb3946f6"
+                                        "ID": "de5fbd74-82c1-4ea7-b82f-221c3de6c167"
                                       },
                                       {
                                         "CommandList": [
@@ -4528,13 +4528,13 @@
                                             ]
                                           }
                                         ],
-                                        "ID": "a0b82d97-1b2b-42e1-bf2f-4913285b7ef1"
+                                        "ID": "690da807-52e0-4e99-9180-3b2f5f16d6b4"
                                       }
                                     ]
                                   }
                                 ],
                                 "Comments": "按天数-1计算，如住宿",
-                                "ID": "d0344ba2-da54-4131-b1ee-bea0081c86c5"
+                                "ID": "f049cd9d-4a28-49aa-b9f3-72b8ac1cf09f"
                               },
                               {
                                 "Condition": {
@@ -4603,7 +4603,7 @@
                                           }
                                         ],
                                         "Comments": "人均标准",
-                                        "ID": "23a394e9-686a-49ef-9c21-a47f287ad59e"
+                                        "ID": "1c148d47-4f80-410b-a5f4-c8404dc0ad61"
                                       },
                                       {
                                         "CommandList": [
@@ -4649,19 +4649,19 @@
                                             ]
                                           }
                                         ],
-                                        "ID": "10c24c65-49b9-43f7-90de-d087301d133e"
+                                        "ID": "d2a5dbb5-6fa4-4d9d-8bc6-e663c08c1e59"
                                       }
                                     ]
                                   }
                                 ],
                                 "Comments": "一次计算，如去往机场费用",
-                                "ID": "7e379a9f-05ed-4220-ac8e-a0ebc23432a3"
+                                "ID": "1881c4b5-24c6-46c4-a1eb-0ab7c22109e5"
                               }
                             ]
                           }
                         ],
                         "Comments": "默认加载项",
-                        "ID": "777d9f89-eeb1-4130-b322-4e3d574650fe"
+                        "ID": "e95f115c-4673-4ea8-8e3f-ecbcf59a867e"
                       }
                     ]
                   }
@@ -4669,7 +4669,7 @@
               }
             ],
             "Comments": "当财务部首次打开该页面时自动填充预置的预算项目",
-            "ID": "5ec39dde-7f5b-4176-bbfa-ea4e36da8d94"
+            "ID": "4e3cdfa0-b7bb-473f-a09b-100e5fd522da"
           }
         ]
       }
@@ -4766,4 +4766,4 @@
       "Size": "520,260"
     }
   ]
-}//KVAfpG8Lr07JkWdXjsdyKBJLh8VUhimt/CSNxfCLRNVqzGDCd4bu3x/v2lYzDNDIm4ZNaJjzKZQfzzOeSox2KIXMZe0rn43rtmaVQemOKb63hnSbl2XbMrL4ayIgxP+3gF7T1XCLnqLdiG2SmKGJUhAenEnGdTgVn0X/ajxonP3t+3I9PN62DRzgx12FCryvB3cahEC9qgrSmxFaKg51/lzpXtwCBhXH8SbqIb4dZ0Y8QXRHNZxAEPQ6DmwO8d2AgVwMC7IBYOEd8BrBEyt6+aWNmRNXZDyMT0rCSsNud/8z0pXYxXollbzf9nxcpmrD4PhhKJTTvo0keyNh00iD8nWwS5w4nvtxtFN+WmC6dNdKqaAnZM+ZDXePd5yM7qZJW4sNENPQ6YROA/TGHOZ7Zecs1EvaXcVGFR7lomEy7FOaYtC4kfZ/J03TrjW4+RTidu+ibZZgFy/Pl9N6byX8WK+uJRhDv42fQQqK8lkFumXoNGPX1f3RPkGefTcFkPA9fqtu/C0ZKoCmHbH961TgSRRP5YX8kuaAa1jsh3MwczRFqQTSNpgV9Zjj6KQvWCW3mxvUsczVrXYHSXjDIGFHN1rFjKqdm8kLT4NBz3jvkzCRdv4d+31M6ZKzSDBiMKlsXruyT0VjqPNCQxT1Y/WkRnw1GKxWGG4RTyrU2aPbF53uc5R3YkeUYoBjZLWRutE2QRvUNqtmk/yEPHTS7AkREXz2YoLifEfd66wNeUXfhpLeJHgwaRZ1jNLQV28rD9U50hrYPY5S29Vv1DFmwFjMZYSZVWuORrMHVWmHum+Ke4tMYhTqXCZ5HCkzFgxonkqDO+IY3ws87XWFIcJUF+IqOmV6BuD8Y/eG+OMmnwGBwp+GkfvQQK4eYiMmaFlFa/BSYvekBbXG9t/1QtDQgMepVg==|920
+}//OpzvS0EeEvLGD44B6GeUqleTSqaCeVn5jLZ6Qz51UPUcuaZVVXkvE2m4NGNAev/csPk4x47Mf6CQzdiD8y/Zh1LDF3BDnXWNgdA0HE3j9ivt2YYSIUIoF5HP1jbNGYzfmcCnmMJeHrz8y/CJ719B6IF/7HX7F+kRLbbWaZQKbBj+q2z6JxQ7urlfEodAYfcFyyuTIWkE3Jx2M3kmyLEkVvQ/RbR27V2OdnP3qDRIi72CUSoEjYI7/G+c6KUSekCGvqEWJ7K73CPpHlarElg8I/QAFWlWSIghbOoe5okTOVkxB1Smg9XhZEQtO+Mco4oBcgrCLYVZggq1e/cHg0tk7JSQsne1J+oq5vGdbGrQhpu8XEjij5qaqPVOtUHQInowtFo1eAjzgnwENDLoIc8AA/4tEzUibSwh9c3ZdDX56My96sir+bCJjB76cZ9u9uPFPMBEWqk3rl1CAQe0JlleF5h0QuYZCtXolML7QOKWEX6DOKEAjetXnHIN1Lm6UNHjtyUtx8JcldpExNBosEo7muJsxSELAk4F0KgnI5vJHEMFRuoHxe5r0W2w/rgFTSW08qrArTNtLSGIIsWdsRu2D6dS4oGadZpsBj4s3Hm73to/I8+pq8SshQblY1yWByrgjzzjPPWvRCA8Yo7Euk9p6I7bpl+QBO06CDfOYTkebyITtY3P0+Rig3tnz6g/zQ1hWWcaaF5VGN7fqrrcMJ5wS3mGN8iW8XbC/2IdcIR16wOBU+cyXowvBx87S8C+d+OPe60tkhuZO+OTaKhlYGbOhKQAMwEkqmmm0ER01dGnKY3i8lLu0cSob6binYsowCmleO7VjcSz4ovKJ8TKIoNrXK1cdO+RZnPJ/e2vGvj1c/IcQ8obPrMMuQxO2laFKbB6mhPZRg1rARFvzcChzMno6Q==|920
