@@ -454,6 +454,24 @@
         "IgnoreBlank": false
       }
     },
+    "13,46": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "组织信息视图",
+        "ValueColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "c7afb728-b435-4b47-88e3-13a4db5d2c56"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "e6eb3286-3bac-4b19-ae3a-cd3856dd30c7"
+        }
+      }
+    },
     "19,1": {
       "ListViewInfo": {
         "Name": "表格1",
@@ -497,7 +515,7 @@
       "BindingInfo": {
         "TableName": "出差行程表",
         "ColumnName": "交通工具",
-        "GUID": "8bb7f0a8-bd13-4725-b363-35fe88b45043"
+        "GUID": "1b03e787-5d12-4e2f-894a-9db41bc04772"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1696,7 +1714,8 @@
     "19,22,1,5",
     "19,27,1,12",
     "7,6,1,14",
-    "5,46,1,14"
+    "5,46,1,14",
+    "13,46,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1826,7 +1845,7 @@
                 ]
               }
             ],
-            "ID": "9e8bf592-b0d2-4f5c-9325-7e980d4daac4"
+            "ID": "53572f75-7ebe-43fb-9a9d-2dd308f9f0b7"
           }
         ],
         "Disabled": true
@@ -1931,4 +1950,4 @@
       "Size": "430,392"
     }
   ]
-}//7Ts9q+ftWBZ1OQN6G4spKjJdSjDw284qZv+CEtPfg3jd6TFaiSgxrwUcKgVjupjMz9w2IQsOc+NX+UfE6iQb7d7uTA1lGqjazwFZERNkO4DMhf7MYUhSCRDhHWKeZrZvZeyBpBIUrhc0yiXcSKG59As9TeQGLpz1ZRk2QYNpGyFXKrGicfAyszQxQdLWCiJYGJ8MyAzQKJCl6E3I5IPgGt4v2T6hlyy9/9dfbdsnhtJ1JpuqSWQHcmFCeUHPsjX906miawqbbnHtRxRSnf8s6wbEzgLpIZQtPaKlkBHehtS/312c1dXHIWc0++xW/Po/r+7kFlR8JfU79Y7SODJKThICjD3LV/GpXFAVVHi5kWYKc+Cm/hSAOmSFeCT3wwsHOaAyTjR0PYpqY6ifWFJHG7E0bdPVVOxFX8scKak7oOZBxDZYv5j2djfSvD8eRb77+XKAdvIJhXUJP5VjhsXTIQBiXF1tXvusR3Lg9ALj2zWqh4/5ORnqCAw+Tg43jUc7dGdqSm4MxqTQ8ZpVTaeVU1xwQ7fOyEZmeXdNbr7djwsIKGssYMAaVCQwVQ6nRwEuQetdlVjWwKUVns/KF5kd9VNSRJFhMadAZZC3mSVhtAvf3c0M1gnCOLan5Vr7JOpCnNea/lZQ8SoQzVO5elEPeliBkEKsoZXAm9X4Fgsc/vIIWU3RR1zeLHmDnwGNctU1R2vq4A52rPsIO36Xx9X8nsXSdI486Ooh+enAAGAYh/tHG/iE37G6iSsLH5vkFA5Hh3jzEmnmsh3H1cU+lta6zmu1cKOUEc5GTOuz2uhMp9pc2gr5FgpQvpFR1sV8L/jLzq6j+ut3oU8YTdnQ3rCMZUDf1Vm3T+kRFuHFYAdxttcXs+ijRM4j/SZ9sB/z4ZiFTxSZbxFsQOQnhWREx3F8Dw==|920
+}//Y+Qqw3LhQizDrmgDkuqFHBi8Cnz7Iji+7rS5pNjmHG2U4PGq3WMXY5Tt7pMgYHM5mWy9jR9P7UhOOGTjTyhZOqU1U3zdHmUouyaQ1wv9edbZJL8oar0RMYxOCDmkTFU7pnvoR/qgFQcLSJdSyy/CRDfCGZ4br8hnFnh53a03CEJcA6vr9i2wCu4gwpKZTx8jIcnyQjtmoyH9f9GvaQADm+qYU27T0t8j1WjiPFGTkVFyolJ2HysKgVTqWD0R7+Q1A9Ryxq9H9/OSvXgehP6LzXU9oOXdahr3W8g7UV4n0+IZsezLkIJWLgLLNq45qDCMUQFK94U1tFJeGuXElkdRwofbw1PKzm2VeUFwwC2Tl1Jlj/q4uAWst6B4fYN5V7r0VvoD2Q1bqaIAkSPh+RsOqTOKda6PHLjeJuJ6ojftp0zuyoWnsSjRbMAZiKRiZz95c6TPxq0hTxEc22OhLOHihLkOyE8b6vZvklzATAuD12mh3lOw1pIgmeAgyfNxEcP/w1r99m4XJEudzn8leJ4YE+eEPYg7Idtqf5tPXE/oKd2TCEYFgvXZOc5LP4uFMU+C/LnFon4V/1nQsubogrdewIr1nov6v8WAYgcdeuLRYJ+7Ayi1LhHsHdq216A7maTfdPhtlKPjOH3/+7mRHQqrXf5m0HPJnUf4i5v4IK061va6mKSnNQDF20bDxbaTdBEoBsWtDUR0zsug2oNioVl3pms85XAamT45P24xRhAOS8HlJvE0zqwzcxfEb9u7YMn4YHRhHoIk1ngWUnJLQRAefPgDSva7stmLRy/mhqOmSn8xqxcdAPRrBaNSaG6Q3HAdNh76DpdXwAHslYVUtpkcp3w/kr3tg8kw1zomNKhIt2RZPNDwo/MVPgx5iZxsNmJgQEniDbdWlt32ROmJKtaEpQ==|920
