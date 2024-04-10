@@ -60,6 +60,13 @@
       "ForeignTable": "组织信息视图",
       "ForeignColumn": "父节点Id",
       "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "组织级别视图",
+      "PrimaryColumn": "组织级别Id",
+      "ForeignTable": "组织信息视图",
+      "ForeignColumn": "组织级别Id",
+      "IsDetailTableRelation": false
     }
   ],
   "Indexes": []

@@ -325,26 +325,6 @@
         "TableName": "出差信息表",
         "ColumnName": "部门",
         "GUID": "a0164349-6244-4349-a62f-1e438e38e26c"
-      },
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "IsBounding": true,
-        "DataSource": "组织信息视图",
-        "ValueColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "ad51a571-2b4f-4da8-95a7-6531b66813a0"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "70bddbb1-8c15-48f8-8e91-a316b6282f0c"
-        }
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "ErrorMessage": "所属部门不能为空。"
       }
     },
     "7,6": {
@@ -352,26 +332,6 @@
         "TableName": "出差信息表",
         "ColumnName": "成本中心",
         "GUID": "e697a120-b17d-4c0a-91fe-bf4de9b5dfbd"
-      },
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "IsBounding": true,
-        "DataSource": "组织信息视图",
-        "ValueColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "eaeb69ce-5d2d-44ac-96fa-1996afd77f5f"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "d73daa61-44a3-4870-b15e-b4d23dd4b639"
-        }
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "ErrorMessage": "成本中心不能为空。\r\n"
       }
     },
     "7,26": {
@@ -537,7 +497,7 @@
       "BindingInfo": {
         "TableName": "出差行程表",
         "ColumnName": "交通工具",
-        "GUID": "f14226e2-c01b-4ddc-959d-c6546ec656d5"
+        "GUID": "8bb7f0a8-bd13-4725-b363-35fe88b45043"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -770,12 +730,12 @@
                             "MessageFormula": "已向人事部发送邮件。"
                           }
                         ],
-                        "ID": "72d7d1d6-02a4-4173-b2cf-5ac83467e591"
+                        "ID": "6f976467-7085-4644-9593-ed95da9c5b82"
                       }
                     ]
                   }
                 ],
-                "ID": "2ea8767b-ad91-4394-b0f8-993fbd052efe"
+                "ID": "4d3f7cf6-b9c4-4d8c-92a7-98ec9c09e294"
               },
               {
                 "CommandList": [
@@ -784,7 +744,7 @@
                     "MessageFormula": "请确保输入的出差信息（包括出差人，出差地点，出差时间，签证类型）正确！"
                   }
                 ],
-                "ID": "5c98092d-5161-4549-9cc5-e7877acc6045"
+                "ID": "e8cc5f4e-25a1-40f7-955d-6ccc003e846b"
               }
             ]
           }
@@ -1115,17 +1075,6 @@
       "5,44": 5,
       "5,45": 5,
       "5,46": 5,
-      "5,47": 5,
-      "5,48": 5,
-      "5,49": 5,
-      "5,52": 5,
-      "5,53": 5,
-      "5,54": 5,
-      "5,55": 5,
-      "5,56": 5,
-      "5,57": 5,
-      "5,58": 5,
-      "5,59": 5,
       "6,21": 2,
       "6,22": 2,
       "6,23": 2,
@@ -1712,7 +1661,6 @@
     "19,47,1,13",
     "25,44,1,15",
     "5,6,1,14",
-    "7,6,1,14",
     "9,7,1,6",
     "9,14,1,6",
     "5,26,1,14",
@@ -1737,7 +1685,6 @@
     "23,47,1,13",
     "20,42,1,5",
     "3,46,1,14",
-    "5,46,1,14",
     "7,46,5,14",
     "9,26,1,5",
     "21,1,8,38",
@@ -1747,7 +1694,9 @@
     "19,14,1,5",
     "19,19,1,3",
     "19,22,1,5",
-    "19,27,1,12"
+    "19,27,1,12",
+    "7,6,1,14",
+    "5,46,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1766,8 +1715,7 @@
                     "SerializeProperty": "='1_填写计划申请表_申请人'!AU6"
                   }
                 ]
-              },
-              "value": "%Null%"
+              }
             },
             "CommandList": [
               {
@@ -1778,7 +1726,7 @@
                   "TableValueType": 1,
                   "BindingInfos": [
                     {
-                      "GUID": "217c82b1-7fb6-416e-b978-41067faf3c8a",
+                      "GUID": "3972d7f6-df47-43a7-9175-1b5620d5425e",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "用户名",
@@ -1787,7 +1735,7 @@
                       "ColumnName": "用户名"
                     },
                     {
-                      "GUID": "d920ac80-a7b1-4522-873c-e0ff3833e630",
+                      "GUID": "ccc72326-2787-450a-96a8-e8590379cc6f",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "全名",
@@ -1796,7 +1744,7 @@
                       "ColumnName": "全名"
                     },
                     {
-                      "GUID": "c3aa381b-3dff-40d6-9d75-f1a04b909884",
+                      "GUID": "3926f1e5-7e5b-4991-abb0-1026074da76a",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "邮件",
@@ -1805,7 +1753,7 @@
                       "ColumnName": "邮件"
                     },
                     {
-                      "GUID": "0ae8b002-688b-43cf-b07f-80c1a64e36fc",
+                      "GUID": "42721335-f232-441f-a2ce-8856c9aeb9cc",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "角色",
@@ -1814,7 +1762,7 @@
                       "ColumnName": "角色"
                     },
                     {
-                      "GUID": "46940cc6-4742-47f5-be86-6cf4b7fbfa37",
+                      "GUID": "077c7361-3c76-4b39-a9c7-64b4a299a243",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "组织上级",
@@ -1823,7 +1771,7 @@
                       "ColumnName": "组织上级"
                     },
                     {
-                      "GUID": "8e41e2b5-c654-4a7b-9c4d-29e6e6a84b4e",
+                      "GUID": "e780f430-5cec-4556-aac4-b74eb91ef2a8",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "中文名",
@@ -1832,7 +1780,7 @@
                       "ColumnName": "中文名"
                     },
                     {
-                      "GUID": "e1a2e21c-be68-450a-9b72-25162f936b47",
+                      "GUID": "7771229c-a5a2-40e5-af3b-7f10c28703cf",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "公司",
@@ -1841,7 +1789,7 @@
                       "ColumnName": "公司"
                     },
                     {
-                      "GUID": "8b0fc4cc-674e-4f82-be34-bbf762739fd9",
+                      "GUID": "1ca1f7fe-ddc0-4260-b5c3-6a02b3fe872e",
                       "BindingInfo": {
                         "TableName": "用户信息视图",
                         "ColumnName": "部门",
@@ -1860,7 +1808,7 @@
                     "Value": "%CurrentUser%"
                   }
                 },
-                "ID": "5b02461a5c624dbbb1a41c42dc32bf1c"
+                "ID": "df7d79a648b3423ba50877e5cbb44d8c"
               },
               {
                 "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1878,9 +1826,10 @@
                 ]
               }
             ],
-            "ID": "c47132ee-21ee-4bb8-bb68-05293942977a"
+            "ID": "9e8bf592-b0d2-4f5c-9325-7e980d4daac4"
           }
-        ]
+        ],
+        "Disabled": true
       }
     ],
     "AuthorizeInfo": {
@@ -1982,4 +1931,4 @@
       "Size": "430,392"
     }
   ]
-}//9eGsltYTVL4tu726yv2GvjaIxoCFRwgKFm/WyQRak+kCAsAF7qaZo6wZwzQx2njMs+NiwMmXRh3WMFrs08n/DgHvkDnVDoEABzhusymhlHdmcnMbeELxVzjRaQLHxfLIzhltuugsO60q0LA7ilbICnyYUioPtroGW39D5xeXuReGKFh0XI+V/rlMfs0bgQY+8upuRswPyrvKQE0Vh3G1QPH9ltTYTOOUerVj7lnP2cAikoYAuKGzgA7Vk4f1IWjN/U/0fePy6v/9TCswC+8a/6f1rCQwSqObK1UWwNfrpDKqUCkvnU6eDlpXC0znjkTVh6h5tbCpZihG56ztj2iOSRFs4MFOgSQYJTynx/fuF7saDDCsW4LqMLHFg17/yz8AYTuIwXu084MTa5STM1y+2fXnyoditF76y0j4OXzBAPXmXs5WPuDOdESydc64oQpqLn8akUMTYs4xtK6E9tz0XFlmn3xZ9OOq/HfAnqMAyTqhh/jdiU16dT0gkAN60XNhX+JWLOK2G9wWhdZkODoIn3xFXjR5Pxs+82gL+8e6tQt5DoaN9jXpuQ8bYgHDcUXCFiLBaQCawfjDfIV5caz3mnKTXRvH6y6262PoPGXsxakhMC1g7ddwNaXSGRBbwPEMEc7XDM5nhqPTRD4Q0DDkBovlItwaTUipiWcZ4xwalRph+Qxz46emwsj1kKE9+1NaH3gY6iRzOXRvWcFBR8xrEERWNfeyzKev1uQu3yZZflTPlXoUs3z3Dkk/zU1VfFhLlxM4aTS6fJkfsNTFqyyVhpN2O+4RaR7X6qwsfesY14AYOlHtG4brfPaL7+SYNiQv6yyKf51MTNaicXmVX3nOOAyokrPkgG7mLj15u5nStWubdQFjQOeZBuqFnJluhZRQ6x31F1ykMWspjDfTdcoHkg==|920
+}//7Ts9q+ftWBZ1OQN6G4spKjJdSjDw284qZv+CEtPfg3jd6TFaiSgxrwUcKgVjupjMz9w2IQsOc+NX+UfE6iQb7d7uTA1lGqjazwFZERNkO4DMhf7MYUhSCRDhHWKeZrZvZeyBpBIUrhc0yiXcSKG59As9TeQGLpz1ZRk2QYNpGyFXKrGicfAyszQxQdLWCiJYGJ8MyAzQKJCl6E3I5IPgGt4v2T6hlyy9/9dfbdsnhtJ1JpuqSWQHcmFCeUHPsjX906miawqbbnHtRxRSnf8s6wbEzgLpIZQtPaKlkBHehtS/312c1dXHIWc0++xW/Po/r+7kFlR8JfU79Y7SODJKThICjD3LV/GpXFAVVHi5kWYKc+Cm/hSAOmSFeCT3wwsHOaAyTjR0PYpqY6ifWFJHG7E0bdPVVOxFX8scKak7oOZBxDZYv5j2djfSvD8eRb77+XKAdvIJhXUJP5VjhsXTIQBiXF1tXvusR3Lg9ALj2zWqh4/5ORnqCAw+Tg43jUc7dGdqSm4MxqTQ8ZpVTaeVU1xwQ7fOyEZmeXdNbr7djwsIKGssYMAaVCQwVQ6nRwEuQetdlVjWwKUVns/KF5kd9VNSRJFhMadAZZC3mSVhtAvf3c0M1gnCOLan5Vr7JOpCnNea/lZQ8SoQzVO5elEPeliBkEKsoZXAm9X4Fgsc/vIIWU3RR1zeLHmDnwGNctU1R2vq4A52rPsIO36Xx9X8nsXSdI486Ooh+enAAGAYh/tHG/iE37G6iSsLH5vkFA5Hh3jzEmnmsh3H1cU+lta6zmu1cKOUEc5GTOuz2uhMp9pc2gr5FgpQvpFR1sV8L/jLzq6j+ut3oU8YTdnQ3rCMZUDf1Vm3T+kRFuHFYAdxttcXs+ijRM4j/SZ9sB/z4ZiFTxSZbxFsQOQnhWREx3F8Dw==|920
