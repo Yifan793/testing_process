@@ -89,7 +89,17 @@
   },
   {
     "ModuleName": "TableView/用户信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-10T17:52:20.1061256+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\用户信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -255,7 +265,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-04-10T17:49:47.9816646+08:00",
+    "LockDateTime": "2024-04-10T17:52:20.1061107+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\出差详情子页面\\1_填写计划申请表_申请人.json",
@@ -632,12 +642,32 @@
   },
   {
     "ModuleName": "TableView/组织信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-10T17:52:20.1061235+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\组织信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/组织级别视图",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-10T17:52:20.1057522+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\组织级别视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   }
 ]
