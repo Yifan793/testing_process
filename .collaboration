@@ -250,7 +250,17 @@
   },
   {
     "ModuleName": "PCPage/1_填写计划申请表_申请人",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-10T16:06:39.7586209+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出差详情子页面\\1_填写计划申请表_申请人.json",
+      "Pages\\出差详情子页面\\1_填写计划申请表_申请人.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/2_办公室预定",
