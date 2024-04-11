@@ -294,17 +294,7 @@
   },
   {
     "ModuleName": "PCPage/流程任务详情页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-11T15:34:31.4096882+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\子页面\\流程任务详情页.json",
-      "Pages\\子页面\\流程任务详情页.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/流程追踪图",
@@ -634,18 +624,5 @@
     "ModuleName": "TableView/组织信息视图",
     "ModuleType": 23,
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "ServerCommand/更新任务摘要1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-11T15:34:49.6569427+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\更新任务摘要1.json"
-    ]
   }
 ]

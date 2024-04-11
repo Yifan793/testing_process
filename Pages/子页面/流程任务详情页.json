@@ -398,7 +398,7 @@
         "PostCommands": [
           {
             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-            "ServerCommandName": "更新任务摘要1",
+            "ServerCommandName": "更新任务摘要",
             "Parameters": [
               {
                 "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
@@ -501,12 +501,12 @@
                             "CheckDataValidation": true
                           }
                         ],
-                        "ID": "27934394-1618-45a2-8c0e-7e8266a3465a"
+                        "ID": "17d6bcb6-2677-4e28-99ff-27a77b5b9c30"
                       }
                     ]
                   }
                 ],
-                "ID": "6d0ed072-029b-4c7b-ac29-bb22e72d5e5c"
+                "ID": "7b33e746-292f-4fdb-8b3e-7532b8a19b4c"
               }
             ],
             "Comments": "在节点“申请中”时，此时业务数据还没有与流程数据相关联，此时需要在业务数据中手动更新关于流程数据的信息。"
@@ -536,7 +536,7 @@
                     "PageName": "历史申请列表"
                   }
                 ],
-                "ID": "118280f8-a042-496f-a932-ea1bd872268a"
+                "ID": "e2a0dd96-9f98-4cdd-b7d2-6964730b7a54"
               },
               {
                 "Condition": {
@@ -558,7 +558,7 @@
                     "PageName": "历史审批"
                   }
                 ],
-                "ID": "5bc07b99-10c2-4598-badf-c80e86666db2"
+                "ID": "dba26f41-773d-4eb5-bb25-cc947f40407c"
               },
               {
                 "Condition": {
@@ -579,7 +579,7 @@
                     "PageName": "待提交"
                   }
                 ],
-                "ID": "22918271-3f57-46c3-851c-5e5950c70140"
+                "ID": "0dc044e4-f64f-4a57-81d2-72b50a59faac"
               }
             ]
           }
@@ -906,4 +906,4 @@
       "Formula": "流程任务详情页!$E$35"
     }
   ]
-}//O+01Rtq8vX0s+zNAf2idPDY1R0UKwXfM9xoB2Qf63ItkD20p3JOz12A4PrkEV48ypYH+vzGGBMQoNNndCZ+A04Y4G63FH5o0W2T61f417M0+Fy3eJwO3EcKq5JuBZmTkCdhalh4LuukdU5InQIsumm3PM/tF9VJpVRpUj8Ly1EstPOKh7xBP2q93WZ5c3qk/Ujs8Ekgs8e5CTdez2oB31t8yFjLr5sAJHuHnvb8VFZiZzWuaurPZcp0rtY6sNWwFg9TK7rpoBF9ImiLA484RLQzb5WKMWQwo/uaQ9EU5nxnF/bU+9cxnyuE7SncOSUO2sTjaxa4pekhghZn1l+Ho7zTuR3U8Xd33c7wlcv6+vq2Ui40K7N0qJEwfBXjW3XqkN7VnHDHtc8NonbUsjGI2DBl6QlKJr0BmO7Eq9ViZyIq+U8bwJoihtkx9svaZBxom4Us/PjV4mHjcIp/gMfDmgDbfEuSUQRR1V/LMrJhfYZ6wiLoh3+c04S0t7KSZZPcTGhp9rDNygZEFtVmiSLtWKawBR8RbGD5w/Kmv3ihelkisklroPfqEMqgvQDtxyJmI0YFbh53PECofT7YOia6XdB+lV5a7aoQEMg89i/tDUP17B2IUthUxyDYXTs3+gNeiCMMZ0rQhIxAU2XZrIfAptoHNNf8MblbAhm2otJZLqf4OycW9sVU290v0d5E2DYKRq2PL5AupqdMQurJPCkr0fGBRO16hDE/irbnMCTcuItiACXzWiLDqqqbAnnpBoBsgwHa+u8/hkfcGDaf701GF4iuG9gt1JyGyFs/6iT5GhzDqr/G5V9vLFT68a2WP4+wk2ii14oZhwLFSTbttrwCUNCmzAZ/GAt/OliUyO+VgYC8vGwuMNNxoCC7mnsM9apC9nEUZWSt8gCGqNURgiMv3Aw==|920
+}//mbOGpSC+DRJscBOZ+IgXADWg8Q/Zc9wKEEfqo+LDi3bR6HDcoAQW9p24852nctA9qgPYqQ0MvEumMi/AocIK5DBAovff7K8cOye2KFJfpzt+bPfGQYwmk5OPc8Cs/vK1N+wnHwBiYWmpaPykHa2YXe7f0O0enKA7U+jxcaWnbVddcUGsTr/gNrVechMo1iqkFZ2CLh00TMRfmgYe89xAgJoTnSYUfzTsNhFbGDdnk4QreJVTO3hfDXTQXkdX/T+yTjMs4Bjtj/yOyDFPRY8r0cByF07SRwT/tx+mcc6tLvEePc8tWvKhBrhDjfD0uj7udIeA3Vpu3k/X1YtuwUSsOG8rN8oCSJrI4tDetO4w78e38NWh5CELRAX7pv7kqLene570yK+JwC097CGS8lhs/3cFWRAAdlYRoRuWBzURmDOtS/N5pL/iTaKAjSvvl9LDuM2oQA3wBEtnj4xsLFV51DiFJRvto/KDNaeRIB9KvDRnmg4ppbva8s1vihBO2lLUsqhlgFjZNad/1dfZYyretgRDQvezVtkce9BskVJtU10sBL3fel1C7ZpCRfDND08Op0loWkdLch9OtB+BChAF5S0EIJsCF+VJn4R5CjzYTQxGB5F1yG3kW8hro982ED/k9zCliO1LvKXA7wdW1pISvpdn6jHJ49/CWqnbLCPPHZStaFunf31Bs8Z+4DLQVRLUI27+q19KQcmgo+N9ri023D/Uw2yibFuWnrGU4SOxc8fJ1uarWaFw1Xde1hAXxvvrsnGjE2DRW+ulULmUpN80H225alBZa9oxoNWHdu1DpfVSDM6BbpNOQJ0C0WgugjCbnqN18QnA49g5/BRCjcxaN3rc379f+1gog0T4PBX1D0SdbUXO+Z1+mDo7dqPfvysp6brvgg0IQy2iKeZvUXchzQ==|920
