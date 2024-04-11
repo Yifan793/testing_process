@@ -314,17 +314,7 @@
   },
   {
     "ModuleName": "PCPage/流程任务详情页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-11T13:33:45.4398908+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\子页面\\流程任务详情页.json",
-      "Pages\\子页面\\流程任务详情页.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/流程追踪图",
