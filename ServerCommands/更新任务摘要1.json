@@ -1,0 +1,90 @@
+{
+  "Name": "更新任务摘要1",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "流程任务ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "业务ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "Item",
+      "TableValue": {
+        "TableName": "出差信息表",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "GUID": "115e5482-c7e1-4f88-821e-dc033ba4eefc",
+            "BindingInfo": {
+              "TableName": "出差信息表",
+              "ColumnName": "出差人",
+              "GUID": "857b09b1-390f-4bc5-85cf-a4b2d0285cd7"
+            },
+            "ColumnName": "出差人"
+          },
+          {
+            "GUID": "1c9d5fc4-05f9-40f5-81ad-cff296feb5fd",
+            "BindingInfo": {
+              "TableName": "出差信息表",
+              "ColumnName": "出差事由",
+              "GUID": "4e126c87-19c8-48cb-8793-e903617f57b5"
+            },
+            "ColumnName": "出差事由"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "出差信息表",
+            "ColumnName": "ID",
+            "GUID": "3acdb0fe-e95c-443a-99ba-c17d3112595d"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=业务ID"
+          }
+        }
+      },
+      "ID": "86a2c180a4bd4ed99223eb363e9a27eb"
+    },
+    {
+      "$type": "Forguncy.Model.ProcessTaskCommand, ServerDesignerCommon",
+      "TaskId": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=流程任务ID"
+      },
+      "TaskActionType": 901,
+      "Description": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=\"出差人：\"&Item.出差人&CHAR(10)&\"出差事由：\"&Item.出差事由"
+      }
+    }
+  ]
+}

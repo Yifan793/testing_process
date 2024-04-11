@@ -41,7 +41,7 @@
         "TableValueType": 1,
         "BindingInfos": [
           {
-            "GUID": "bb9a8f8f-7316-429e-81f5-45b90b039a37",
+            "GUID": "f6cc91d2-0e60-4efe-949f-5b51e6f43010",
             "BindingInfo": {
               "TableName": "出差信息表",
               "ColumnName": "出差人",
@@ -50,7 +50,7 @@
             "ColumnName": "出差人"
           },
           {
-            "GUID": "33759fc6-21ff-48be-a22a-3229d440a47e",
+            "GUID": "561e14ae-1b33-4029-a38f-e362c6e443fa",
             "BindingInfo": {
               "TableName": "出差信息表",
               "ColumnName": "出差事由",
@@ -72,7 +72,7 @@
           }
         }
       },
-      "ID": "5704866caf114047995bf3fc44ff25a8"
+      "ID": "70d96ac5a8b94876941244ac1f7a73e5"
     },
     {
       "$type": "Forguncy.Model.ProcessTaskCommand, ServerDesignerCommon",
@@ -84,7 +84,8 @@
       "Description": {
         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
         "SerializeProperty": "=\"出差人：\"&Item.出差人&CHAR(10)&\"出差事由：\"&Item.出差事由"
-      }
+      },
+      "Disabled": true
     }
   ]
 }

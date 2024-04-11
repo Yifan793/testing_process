@@ -325,6 +325,22 @@
         "TableName": "出差信息表",
         "ColumnName": "部门",
         "GUID": "a0164349-6244-4349-a62f-1e438e38e26c"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "组织信息视图",
+        "ValueColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "c3f659da-6806-401f-94ad-4a4f87aef7b7"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "46f5c909-d851-4a7e-a54e-bf767419eb83"
+        }
       }
     },
     "7,6": {
@@ -332,6 +348,22 @@
         "TableName": "出差信息表",
         "ColumnName": "成本中心",
         "GUID": "e697a120-b17d-4c0a-91fe-bf4de9b5dfbd"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "组织信息视图",
+        "ValueColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "5c0bd462-fc63-4aed-aa5b-f548b9121c77"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "组织信息视图",
+          "ColumnName": "组织名",
+          "GUID": "36365eee-bf3c-4d7b-a874-e884cb237880"
+        }
       }
     },
     "7,26": {
@@ -454,24 +486,6 @@
         "IgnoreBlank": false
       }
     },
-    "13,46": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "IsBounding": true,
-        "DataSource": "组织信息视图",
-        "ValueColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "c7afb728-b435-4b47-88e3-13a4db5d2c56"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "组织信息视图",
-          "ColumnName": "组织名",
-          "GUID": "e6eb3286-3bac-4b19-ae3a-cd3856dd30c7"
-        }
-      }
-    },
     "19,1": {
       "ListViewInfo": {
         "Name": "表格1",
@@ -515,7 +529,7 @@
       "BindingInfo": {
         "TableName": "出差行程表",
         "ColumnName": "交通工具",
-        "GUID": "1b03e787-5d12-4e2f-894a-9db41bc04772"
+        "GUID": "b999d3d7-441c-4de1-93de-0d5d9d43d438"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -748,12 +762,12 @@
                             "MessageFormula": "已向人事部发送邮件。"
                           }
                         ],
-                        "ID": "6f976467-7085-4644-9593-ed95da9c5b82"
+                        "ID": "a568bf3c-81a9-4529-935f-575025ddb31b"
                       }
                     ]
                   }
                 ],
-                "ID": "4d3f7cf6-b9c4-4d8c-92a7-98ec9c09e294"
+                "ID": "98dfe848-97ec-45a5-ae92-842abc6707bb"
               },
               {
                 "CommandList": [
@@ -762,7 +776,7 @@
                     "MessageFormula": "请确保输入的出差信息（包括出差人，出差地点，出差时间，签证类型）正确！"
                   }
                 ],
-                "ID": "e8cc5f4e-25a1-40f7-955d-6ccc003e846b"
+                "ID": "b000af03-214f-40ea-a51c-46f20f213f94"
               }
             ]
           }
@@ -1264,6 +1278,20 @@
       "11,58": 5,
       "11,59": 5,
       "11,60": 9,
+      "13,46": 0,
+      "13,47": 0,
+      "13,48": 0,
+      "13,49": 0,
+      "13,50": 0,
+      "13,51": 0,
+      "13,52": 0,
+      "13,53": 0,
+      "13,54": 0,
+      "13,55": 0,
+      "13,56": 0,
+      "13,57": 0,
+      "13,58": 0,
+      "13,59": 0,
       "16,19": 0,
       "16,20": 0,
       "16,21": 14,
@@ -1707,15 +1735,14 @@
     "9,26,1,5",
     "21,1,8,38",
     "1,7,1,6",
+    "5,46,1,14",
+    "7,6,1,14",
     "19,1,1,7",
     "19,8,1,6",
     "19,14,1,5",
     "19,19,1,3",
     "19,22,1,5",
-    "19,27,1,12",
-    "7,6,1,14",
-    "5,46,1,14",
-    "13,46,1,14"
+    "19,27,1,12"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1845,7 +1872,7 @@
                 ]
               }
             ],
-            "ID": "53572f75-7ebe-43fb-9a9d-2dd308f9f0b7"
+            "ID": "5dbe857c-32ea-4606-a8de-7fe2f28ed806"
           }
         ],
         "Disabled": true
@@ -1950,4 +1977,4 @@
       "Size": "430,392"
     }
   ]
-}//Y+Qqw3LhQizDrmgDkuqFHBi8Cnz7Iji+7rS5pNjmHG2U4PGq3WMXY5Tt7pMgYHM5mWy9jR9P7UhOOGTjTyhZOqU1U3zdHmUouyaQ1wv9edbZJL8oar0RMYxOCDmkTFU7pnvoR/qgFQcLSJdSyy/CRDfCGZ4br8hnFnh53a03CEJcA6vr9i2wCu4gwpKZTx8jIcnyQjtmoyH9f9GvaQADm+qYU27T0t8j1WjiPFGTkVFyolJ2HysKgVTqWD0R7+Q1A9Ryxq9H9/OSvXgehP6LzXU9oOXdahr3W8g7UV4n0+IZsezLkIJWLgLLNq45qDCMUQFK94U1tFJeGuXElkdRwofbw1PKzm2VeUFwwC2Tl1Jlj/q4uAWst6B4fYN5V7r0VvoD2Q1bqaIAkSPh+RsOqTOKda6PHLjeJuJ6ojftp0zuyoWnsSjRbMAZiKRiZz95c6TPxq0hTxEc22OhLOHihLkOyE8b6vZvklzATAuD12mh3lOw1pIgmeAgyfNxEcP/w1r99m4XJEudzn8leJ4YE+eEPYg7Idtqf5tPXE/oKd2TCEYFgvXZOc5LP4uFMU+C/LnFon4V/1nQsubogrdewIr1nov6v8WAYgcdeuLRYJ+7Ayi1LhHsHdq216A7maTfdPhtlKPjOH3/+7mRHQqrXf5m0HPJnUf4i5v4IK061va6mKSnNQDF20bDxbaTdBEoBsWtDUR0zsug2oNioVl3pms85XAamT45P24xRhAOS8HlJvE0zqwzcxfEb9u7YMn4YHRhHoIk1ngWUnJLQRAefPgDSva7stmLRy/mhqOmSn8xqxcdAPRrBaNSaG6Q3HAdNh76DpdXwAHslYVUtpkcp3w/kr3tg8kw1zomNKhIt2RZPNDwo/MVPgx5iZxsNmJgQEniDbdWlt32ROmJKtaEpQ==|920
+}//TbauxRk2cuCfpp+BuKUlrByLyiIkXrX/vThXM17eVbZwgNscQ0XK9BNvWqLDhymOpS73And27H4KJYZpJfuv2vSFeo5oTWQoOOwl28atBXPxuJFFXxJXBs1Sadc47sD+sX/RlHjR1GK6riLbOdQj3YuaYQLxov87fJiePCygQ/rKtmk3fvKfxDWB0p2iW06x3fVjsqtSz5lmPUNXx7DMOe0aEN3QhIIdkBimkF47EGOwZXEm8K6tYyiw5W/veK11yBgDXiRgIZF+FyznKBHN8jnemwl4+Lq2YVjQ+o2Sa/Ldb1IfA+ZKf8AsWHgT/5xgrLzjOSM7nLt7lkXNFPHc5HdoKOtNG1d6BECvDu5NgqQiZ4cf6w/lPw7mut8hHMp8Ak6rDHv1lB7F5c1ms7GN4LYm1kETK2JBwAXKdM1y/7x4Bvj+shSg1wl/L+lkEMM4Z4UiyJ0LEshf9PEQDE2NsiR6SC8Tsa8OQUj8KNEvW1l54B71JFWFX8KZX8LzUQYdw3diGZusD+80KL+LfbtiEboMmMY0tc2r0FtDz1olM0oerFlMlW7NMrhtHWmVOUzj6gxm+gGZTx6Cy8rm1i1r8Wom0Y3XTUOnkQpzzfhj28+2a6t9Q6EFoziPopaPPvBRcO/5AbMpZa5sSRYAjPzCxxXkufaxGAo8X80i3z3LkaEys5UuoXqybvR5KqKRJQIaSNU906S6UfP8FDApUDz6lmOn8OV6YXVmz/gTfHJ+UvXt4OUyJn/Mlc4oWijiuROtPZ1WQiU9K2hV8Yb3MfdhMj82t0HCcM0/hZm0SYNP3hwHDEp7EVusa1+iOJ7d2/Ea3YzpRYC5CLbKm/L4vgwfO+FgSrWRZ+NWIrBkyde9tXy6irqGG+YdBZ/Ut7Af38J6X0iizS4ewQXF1EfIUFXaJA==|920
