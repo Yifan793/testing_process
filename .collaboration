@@ -733,5 +733,15 @@
       "ForguncyDB.sqlite3"
     ],
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "ServerCommand/更新任务摘要1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-11T15:29:39.7294425+08:00",
+    "ModuleType": 15
   }
 ]
