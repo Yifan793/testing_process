@@ -89,17 +89,7 @@
   },
   {
     "ModuleName": "TableView/用户信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-12T16:52:40.3292949+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\用户信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -616,51 +606,7 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-12T16:52:40.3315626+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\0bfd276c-fa84-4ef1-a9d2-0f3797cb870c_幻灯片15.jpeg",
-      "Upload\\0bfd276c-fa84-4ef1-a9d2-0f3797cb870c_幻灯片15.medium.jpeg",
-      "Upload\\0bfd276c-fa84-4ef1-a9d2-0f3797cb870c_幻灯片15.small.jpeg",
-      "Upload\\1c85f635-ad51-45f0-bf06-01745ca49a35_幻灯片13.jpeg",
-      "Upload\\1c85f635-ad51-45f0-bf06-01745ca49a35_幻灯片13.medium.jpeg",
-      "Upload\\1c85f635-ad51-45f0-bf06-01745ca49a35_幻灯片13.small.jpeg",
-      "Upload\\28faead8-85a6-42f4-b776-cde752853239_幻灯片24.jpeg",
-      "Upload\\28faead8-85a6-42f4-b776-cde752853239_幻灯片24.medium.jpeg",
-      "Upload\\28faead8-85a6-42f4-b776-cde752853239_幻灯片24.small.jpeg",
-      "Upload\\2b02ead9-451d-46a3-a447-0ac0aea59291_幻灯片03.jpeg",
-      "Upload\\2b02ead9-451d-46a3-a447-0ac0aea59291_幻灯片03.medium.jpeg",
-      "Upload\\2b02ead9-451d-46a3-a447-0ac0aea59291_幻灯片03.small.jpeg",
-      "Upload\\403ee095-d76a-4d86-b7cd-e61c89e8a2a0_幻灯片04.jpeg",
-      "Upload\\403ee095-d76a-4d86-b7cd-e61c89e8a2a0_幻灯片04.medium.jpeg",
-      "Upload\\403ee095-d76a-4d86-b7cd-e61c89e8a2a0_幻灯片04.small.jpeg",
-      "Upload\\4893af31-31e3-4609-bfb6-165d37c96447_幻灯片02.jpeg",
-      "Upload\\4893af31-31e3-4609-bfb6-165d37c96447_幻灯片02.medium.jpeg",
-      "Upload\\4893af31-31e3-4609-bfb6-165d37c96447_幻灯片02.small.jpeg",
-      "Upload\\661b1519-3e9a-4e3f-ad8a-1fc368f9cab9_幻灯片13.jpeg",
-      "Upload\\661b1519-3e9a-4e3f-ad8a-1fc368f9cab9_幻灯片13.medium.jpeg",
-      "Upload\\661b1519-3e9a-4e3f-ad8a-1fc368f9cab9_幻灯片13.small.jpeg",
-      "Upload\\a54f2186-352e-4733-83f9-60636cd06df7_幻灯片14.jpeg",
-      "Upload\\a54f2186-352e-4733-83f9-60636cd06df7_幻灯片14.medium.jpeg",
-      "Upload\\a54f2186-352e-4733-83f9-60636cd06df7_幻灯片14.small.jpeg",
-      "Upload\\c5d6d7e1-c303-46f6-847f-277e04ee93bb_幻灯片11.jpeg",
-      "Upload\\c5d6d7e1-c303-46f6-847f-277e04ee93bb_幻灯片11.medium.jpeg",
-      "Upload\\c5d6d7e1-c303-46f6-847f-277e04ee93bb_幻灯片11.small.jpeg",
-      "Upload\\d1981760-4198-4b7c-aee3-6a3af98d0758_幻灯片13.jpeg",
-      "Upload\\d1981760-4198-4b7c-aee3-6a3af98d0758_幻灯片13.medium.jpeg",
-      "Upload\\d1981760-4198-4b7c-aee3-6a3af98d0758_幻灯片13.small.jpeg",
-      "Upload\\f147ffd7-3269-44d5-b419-d475a736e772_幻灯片03.jpeg",
-      "Upload\\f147ffd7-3269-44d5-b419-d475a736e772_幻灯片03.medium.jpeg",
-      "Upload\\f147ffd7-3269-44d5-b419-d475a736e772_幻灯片03.small.jpeg",
-      "Upload\\f789b2c1-ee44-4a72-b266-ea7c5b9b873a_幻灯片21.jpeg",
-      "Upload\\f789b2c1-ee44-4a72-b266-ea7c5b9b873a_幻灯片21.medium.jpeg",
-      "Upload\\f789b2c1-ee44-4a72-b266-ea7c5b9b873a_幻灯片21.small.jpeg"
-    ]
+    "ModuleType": 26
   },
   {
     "ModuleName": "PublishConfiguration",
@@ -676,17 +622,7 @@
   },
   {
     "ModuleName": "TableView/组织信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-12T16:52:40.3292998+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\组织信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   }
 ]
