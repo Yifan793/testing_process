@@ -635,5 +635,15 @@
     "ModuleName": "TableView/组织信息视图",
     "ModuleType": 23,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/出差详情展示页 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-15T13:41:37.5439137+08:00",
+    "ModuleType": 1
   }
 ]
