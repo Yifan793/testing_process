@@ -254,7 +254,17 @@
   },
   {
     "ModuleName": "PCPage/2_办公室预定",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-15T13:52:56.3697253+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出差详情子页面\\2_办公室预定.json",
+      "Pages\\出差详情子页面\\2_办公室预定.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/3_财务部预算",
