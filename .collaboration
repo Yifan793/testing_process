@@ -402,7 +402,16 @@
   },
   {
     "ModuleName": "ServerCommand/更新任务摘要",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-15T10:55:47.6055353+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\更新任务摘要.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/更新出差信息表的流程实例ID",
