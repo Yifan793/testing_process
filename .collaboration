@@ -438,7 +438,17 @@
   },
   {
     "ModuleName": "MasterPCPage/出差管理系统母版页",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-16T09:21:27.8788624+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\出差管理系统母版页.json",
+      "MasterPages\\出差管理系统母版页.rd"
+    ]
   },
   {
     "ModuleName": "ServerCommand/更新任务摘要",
