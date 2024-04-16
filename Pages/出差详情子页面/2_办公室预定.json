@@ -700,7 +700,6 @@
   "Values": {
     "1,1": "出差预定信息",
     "4,42": 0,
-    "30,1": "出差ID：",
     "30,17": "出差预定表的图片："
   },
   "AttachInfos": {
@@ -752,7 +751,7 @@
       "BindingInfo": {
         "TableName": "出差预定表",
         "ColumnName": "子项目ID",
-        "GUID": "8a40d74b-f8b8-40a6-8bd8-dbc73fd518bb"
+        "GUID": "2f52deff-b692-4993-8f17-f9122e3d6053"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -888,13 +887,6 @@
         "Color": "Accent 1 0"
       }
     },
-    "30,4": {
-      "BindingInfo": {
-        "TableName": "出差信息表",
-        "ColumnName": "ID",
-        "GUID": "8abac8c8-5c2a-4711-ba81-55b9514580c0"
-      }
-    },
     "30,28": {
       "BindingInfo": {
         "TableName": "出差预定表",
@@ -905,36 +897,6 @@
       "CellType": {
         "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_Shadow_Style1"
-      }
-    },
-    "32,1": {
-      "ListViewInfo": {
-        "Name": "表格2",
-        "TableName": "出差信息表",
-        "RowIndex": 32,
-        "ColumnIndex": 1,
-        "RowCount": 8,
-        "ColumnCount": 13,
-        "TopCondition": null,
-        "ListViewStyleName": "_RS_NewFashionStripedStyle2",
-        "ShowColumnHeaderInDesigner": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "ColumnOperation": 2
-      }
-    },
-    "33,1": {
-      "BindingInfo": {
-        "TableName": "出差信息表",
-        "ColumnName": "ID",
-        "GUID": "d1e45b9a-7388-4b60-b44c-86c06ea058f5"
-      }
-    },
-    "33,5": {
-      "BindingInfo": {
-        "TableName": "出差信息表",
-        "ColumnName": "出差人",
-        "GUID": "39a99f2d-3c5c-44fa-bc80-714494178195"
       }
     }
   },
@@ -2269,7 +2231,98 @@
       "27,53": 5,
       "27,54": 5,
       "27,55": 5,
+      "28,0": 5,
+      "28,1": 5,
+      "28,2": 5,
+      "28,3": 5,
+      "28,4": 5,
+      "28,5": 5,
+      "28,6": 5,
+      "28,7": 5,
+      "28,8": 5,
+      "28,9": 5,
+      "28,10": 5,
+      "28,11": 5,
+      "28,12": 5,
+      "28,13": 5,
+      "28,14": 5,
+      "29,0": 5,
+      "29,1": 5,
+      "29,2": 5,
+      "29,3": 5,
+      "29,4": 5,
+      "29,5": 5,
+      "29,6": 5,
+      "29,7": 5,
+      "29,8": 5,
+      "29,9": 5,
+      "29,10": 5,
+      "29,11": 5,
+      "29,12": 5,
+      "29,13": 5,
+      "29,14": 5,
+      "30,0": 5,
+      "30,1": 5,
+      "30,2": 5,
+      "30,3": 5,
+      "30,4": 5,
+      "30,5": 5,
+      "30,6": 5,
+      "30,7": 5,
+      "30,8": 5,
+      "30,9": 5,
+      "30,10": 5,
+      "30,11": 5,
+      "30,12": 5,
+      "30,13": 5,
+      "30,14": 5,
       "30,28": 6,
+      "31,0": 5,
+      "31,1": 5,
+      "31,2": 5,
+      "31,3": 5,
+      "31,4": 5,
+      "31,5": 5,
+      "31,6": 5,
+      "31,7": 5,
+      "31,8": 5,
+      "31,9": 5,
+      "31,10": 5,
+      "31,11": 5,
+      "31,12": 5,
+      "31,13": 5,
+      "31,14": 5,
+      "32,0": 5,
+      "32,1": 5,
+      "32,2": 5,
+      "32,3": 5,
+      "32,4": 5,
+      "32,5": 5,
+      "32,6": 5,
+      "32,7": 5,
+      "32,8": 5,
+      "32,9": 5,
+      "32,10": 5,
+      "32,11": 5,
+      "32,12": 5,
+      "32,13": 5,
+      "32,14": 5,
+      "33,0": 5,
+      "33,1": 5,
+      "33,2": 5,
+      "33,3": 5,
+      "33,4": 5,
+      "33,5": 5,
+      "33,6": 5,
+      "33,7": 5,
+      "33,8": 5,
+      "33,9": 5,
+      "33,10": 5,
+      "33,11": 5,
+      "33,12": 5,
+      "33,13": 5,
+      "33,14": 5,
+      "34,0": 5,
       "34,1": 5,
       "34,2": 5,
       "34,3": 5,
@@ -2283,6 +2336,8 @@
       "34,11": 5,
       "34,12": 5,
       "34,13": 5,
+      "34,14": 5,
+      "35,0": 5,
       "35,1": 5,
       "35,2": 5,
       "35,3": 5,
@@ -2296,6 +2351,8 @@
       "35,11": 5,
       "35,12": 5,
       "35,13": 5,
+      "35,14": 5,
+      "36,0": 5,
       "36,1": 5,
       "36,2": 5,
       "36,3": 5,
@@ -2309,6 +2366,8 @@
       "36,11": 5,
       "36,12": 5,
       "36,13": 5,
+      "36,14": 5,
+      "37,0": 5,
       "37,1": 5,
       "37,2": 5,
       "37,3": 5,
@@ -2322,6 +2381,8 @@
       "37,11": 5,
       "37,12": 5,
       "37,13": 5,
+      "37,14": 5,
+      "38,0": 5,
       "38,1": 5,
       "38,2": 5,
       "38,3": 5,
@@ -2335,6 +2396,8 @@
       "38,11": 5,
       "38,12": 5,
       "38,13": 5,
+      "38,14": 5,
+      "39,0": 5,
       "39,1": 5,
       "39,2": 5,
       "39,3": 5,
@@ -2347,7 +2410,8 @@
       "39,10": 5,
       "39,11": 5,
       "39,12": 5,
-      "39,13": 5
+      "39,13": 5,
+      "39,14": 5
     },
     "RowStyles": {
       "3": 7,
@@ -2361,21 +2425,17 @@
   "Spans": [
     "4,46,1,7",
     "4,53,1,3",
-    "30,4,1,10",
     "4,1,1,11",
     "4,12,1,5",
     "4,17,1,4",
     "4,21,1,5",
     "4,26,1,5",
     "4,31,1,11",
-    "33,1,1,4",
-    "33,5,1,9",
     "4,42,1,4",
     "1,1,1,22",
     "30,17,1,9",
     "30,28,4,10",
     "5,1,22,55",
-    "34,1,6,13",
     "3,1,1,11",
     "3,12,1,5",
     "3,17,1,4",
@@ -2384,9 +2444,7 @@
     "3,31,1,11",
     "3,42,1,4",
     "3,46,1,7",
-    "3,53,1,3",
-    "32,1,1,4",
-    "32,5,1,9"
+    "3,53,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2427,4 +2485,4 @@
       "Size": "1140,612"
     }
   ]
-}//1gSzjC2sOQoE4/W+ACjHcYiqfHW/RuctUqN5cbiTMxtE/odpjlBjNlT20yjOrh+URmtrhRsvRAIVKk5ZWUo37FBgKs5cb/rlRY4y9hei1S6bEvO5cT6QhNInGEMNsYAFGdMmhc43TirC1S5/Iyc1u44voxUH2HrRFBNezEYTzyXyUHn9f1omtvJTEubcx4L6rwnpigiFIfPvc3zZXYwK8YpJ0WjI2Phd2/rdXROJC+WChbtKhY2POFWJHSI722nMGKikVPF1a5RJrtUXDvXi0zieCGgNUvfFsNgxP3/TGfkfIAB6m0DmGM9Wwj2oVn3LO66zihMZXzSBXXzkBB1pYXJHKUyJD8z4oUYDgoTFPv5hvh2EePQN4lJGGwkXyce2taaxhIoRkAmQn0RYhnEGnVRPCwPgDo56Skf5GuC1P5LdZORpBNumJ9J/EsZXNh1EdGNGXOD32Q3ekwKw3gpnUpJGDGSYjhQ0oLpR2Nlv5DCIehgDt+L2SJCN18SSH2shi/2R3aUYDqGZ3qePxXO+6gNtJS6qyFoPxV+tJw7NTMvoOAQe8QQoegnJeXhWSoURXmZ64Eo9uFBkQm1fqac3P1RdbWGXluma0RslzQ6/RtDMt5Ihq09CJsZ+0PUVot5XUW1M6/g9uIZAQEOpKOxE5+RzXFY1u/DgJrlPtX7SAq6Wv+WWZ+QWsyxkdzYM6CfdG2FF6aBZ40BXONrvlrNGCeA3ioe8GcJpf0gQmcWm6pL0UlQleJwu5Ml9oy7USJFfqAogzLOPuoIQxVvlt+sO1GbpVdF4RYwrjy36/dZ7PWMKgS88SbJriJdpqgOLYSu/w2szUXKIDoWmIRb6WuM2DApdTm2/beV3VqsBrPF57tDHdFrB4nxEoI/+GW615Mcl2QZiFvIaHgE2VG7tSyi2IA==|920
+}//GxCxgRrcVwgBzxX7rZFq480HxDzpkoTmuSE5y2/1wdJH5mg+hTmCXXsfSu5oYsrglwFyVKtDqCLcLzdFI3/7VBsmtNBB0jG6gyIkTie+/an2YFj5tcxf5CjOizTSFDA3cVeKYQyMnTWV0S8PqD+Xkx86f+0Vgz55xB/IXBUpeA6xCop2iCewj+W97vvABtBAsj/jxD5Psx+bv0DmnOYqaJsueSzrif1BJuDUMkTSFytpqnxOEbAN/hI7fkuPQCODMKRa5GzmMPbwsxVQnd7s5GYNwkyJ555iwFJhJM2DD3Ez5eSYljjoPpRAFtou0LN4/WcGa2n5ODUUr7GvqlTLURgIIK+HyGmdKlGl6SUDefouO33ipTSyjL57d2Y2bfcQh+75VatfOknX3P2IABqYO3bFEPOJLIXF2IStaTuH8HPSEHfmveABoU59N0TGglhQOnSYgLO78Wm5ZCNPKPL7QI4kYDuHOVhlmJZMVO+q2URrngzRxEIwE5QEvoMiXpFTkmIM50xOj7zpFlpMRixtt+4I7L6ds0xB5BerfI/1zZIxI55gAiBmD/IqF2Xs0yFPDZC6MUN5rt5WksG5LCz6EagKLAyrHqqinvHG7bkchHtSINMBsW9EAdRAJavFK5npiBDxrSCv2sa9a+uTCW+w/QgXXyHNUB0ilARSdjTOECBR6HMcuBIve5dPvpQxukJd6tSOPfbC6VDp8mhrRc9B5X0x/7upa78uXmr2Qi7XPPiUY/rc6Ov9tkSd/3Mu/bzxsRvv4wxPt6uDxPeYYLGjAfvk41kqHxVPU2a25j7XSleDfm7/zyS4Au1j8xbE4HHyRIarbdFq49k2shIMtiSHMRtSjKxzycm31cWkvuTiwe6WaqfQIPpRnx457mROo20Ro9o8WrEXLzx5FfqCz/04VQ==|920

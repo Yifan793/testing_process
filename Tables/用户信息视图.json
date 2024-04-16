@@ -54,6 +54,41 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "MaxLength": -1,
+      "Name": "Text",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "User",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "手机",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "头像",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "上司",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
       "Name": "公司",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -67,7 +102,7 @@
   ],
   "BuiltInViewInfo": {
     "ViewName": "用户信息视图",
-    "CreateViewSql": "SELECT [FGC_UserName] AS [用户名], [FGC_FullName] AS [全名], [FGC_Email] AS [邮件], [FGC_IsEnabled] AS [有效], [FGC_Role] AS [角色], [FGC_OrganizationSuperior] AS [组织上级], [中文名] AS [中文名], [公司] AS [公司], [部门] AS [部门] FROM [FGC_UserInfoTable]",
+    "CreateViewSql": "SELECT [FGC_UserName] AS [用户名], [FGC_FullName] AS [全名], [FGC_Email] AS [邮件], [FGC_IsEnabled] AS [有效], [FGC_Role] AS [角色], [FGC_OrganizationSuperior] AS [组织上级], [中文名] AS [中文名], [Text] AS [Text], [User] AS [User], [手机] AS [手机], [头像] AS [头像], [上司] AS [上司], [公司] AS [公司], [部门] AS [部门] FROM [FGC_UserInfoTable]",
     "ViewType": 1
   },
   "PrimaryKey": [

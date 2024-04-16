@@ -416,10 +416,6 @@
     "42,11": "待提交：",
     "43,11": "待审批："
   },
-  "Formulas": {
-    "42,15": "ODATA(\"ACT_RU_TASK_View/$count?$filter=负责人 eq \"&IF(ISBLANK(AO2),\"null\",\"'\"&AO2&\"'\")&\" and 类型 ne '抄送' and (名称 eq '申请中' or 名称 eq '票据报销')\")",
-    "43,15": "ODATA(\"ACT_RU_TASK_View/$count?$filter=负责人 eq \"&IF(ISBLANK(AO2),\"null\",\"'\"&AO2&\"'\")&\" and 类型 ne '抄送' and 名称 ne '申请中'\")"
-  },
   "AttachInfos": {
     "1,7": {
       "CellType": {
@@ -472,7 +468,7 @@
                     "PageName": "流程任务详情页"
                   }
                 ],
-                "ID": "472d0ec9-3ae2-4476-bc1f-84f1db079171"
+                "ID": "cb88d28c-d13f-4631-993f-f9654375c11d"
               }
             ]
           }
@@ -544,11 +540,7 @@
                 ],
                 "CanVisitRoleList": [
                   "FGC_LoginUser"
-                ],
-                "Notification": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=出差管理系统母版页!P43"
-                }
+                ]
               },
               {
                 "Text": "  待审批",
@@ -568,11 +560,7 @@
                   "出差Admin",
                   "办公室",
                   "总经理"
-                ],
-                "Notification": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=出差管理系统母版页!P44"
-                }
+                ]
               },
               {
                 "Text": "  历史审批",
@@ -1193,4 +1181,4 @@
       "Size": "800,60"
     }
   ]
-}//CEgjll+thuQGMdMbCco/uXCRwfdSilnQbg/V0EEMNBJ9+DECpUnOcLgVj49PYah/g0RVOQxARryZBiFj1ZDKjd7570KzK+/WwSwdWc1Lfavgv//4bVVr0/c5vmSgvAyBohyXTb5BXBNflVt1E/9BO0XbDmpQ/afChCl5qRcm9hJqQV8cCU1O4ClwnOgWVf6l+dkfC3Ginyub9RMo8vIMFXTbW7CMbQXv5axaqpX6COtBs/D42UDRikKG0u+Y/JFTXpsfk8wMz6d24VxU7gV98/f9yKfNcY7QwnVEReicE7lxSlwnjM3sbfsMJq2qJEwvJcjsC/KzUo+LhWvKqvxfZjm4ECxMTl/MIQInD5lHld70XATPhtoeaCQAuNz3cArwZzxkSPhugOUKeSIcJ9tgl/XiM9drF8avQpkWE+7wql/TMuh0B6FqkmD/b9+Gnsde8SW1lyZEOCODexpNuufZUbc/nvoDUrAu15KjijvTul93u8euKmKvOwsyeqvrkTVR6pmw0hDKFGIOp9Ww0ijDcVVD4izXnNPLfRXr7Uq8MKwqu/Hygbn2WNPj/3Oq9QN1rH+/H5fj4s8agX3pAIAwBN4xiDkY+3hIFUtlliyc1cwIc7kcDPXIfjQz8Cv6SfK8Y1EFKI/T+6rVVRyC9gvTMqGspLB7m3B6p+GQNq8l5Uzir6bORxcrcBo+/Q3olUmRsz1hNbfakLx1SxiM48cfb9j5tVFyAFipASrbUQFcAzuHzPwlhvKAA1CnT9mhUIkVBM042rnS+9OQmC8ODjOIpALwlUNClyLktHYsmpJfVw2WkIgq43MhsDIF+iqwOdMWF1/g8pE0Sx0U9JeTIDqrqmZzkl4lDaJRXSO28GHMgIh2YK1iPhueopKlEXhEHYhkH+KIGYAPZjfOUevCe1TXxQ==|920
+}//ChKCt76jx949E7rbwAV6JJUnxSB21P5Q6HP16TTRRsl5rDUnH0tLUCKeI7fgARsh5EdbNGJ5uJmfXFJrw3YliDdu8Cr3qrdEoW/2AwRphgqdbTWJF6lRepTe+OPh/nfkZaPoTsF60inoaOr7dX5D4VaXcZ6kFIkKGIZoNAokRiES8JPgjEiifN2RgeFq13r7YfaWiTXMsLVa2M8pxx//8K5uMKzoUVL6ScOsDP+/wd3EsaaIGGVdbuCoUus868tQeOYYErDwv3i6a/FnxlPGVD69wyxco6RMUyVIN5QGfQweKN7apZuY7ZT9psqdhSV28odoWIBJ9zVa0Z8p/wSYFaD+uWcqsQo6v4/cGm6t10x0qmKo71oJiEcHb5PVRLU+NP5TCVMM9iV7HP3YYd++kUeaLAAOxEFCavPCEphxo85vKR6R3t99YhcjNSry62WMwJAgU/b7hMU2lH8yKUjkeFyT1NPsXVp2s6ASlSj0yrNst/yyj7UMNizmYpl/HuUUUSvrf05t629DC9gXDc2LvHz4+RQKM3l/UgZRdMc36eg3N3ZJgcRTPoSRvunLzWnhm4DseY0EZLdPnD4phkkvYB4dxNMNchV1/Jn23OyjvL3xmXQ7asasF05CFEwyB0M3F3qalSs2ha/TL9KakOosFlhyQyIaPAiHeXEuIO9uWCJRtzkmDfHIVJy3L+MeyHsFLVT9PJ+YY+OpeTh91PivCPYtbRUpDR5vBJDXJMxYbbfu5bS89nQIG7F/b9eZfmBg2Yxs7QN0CQJrRKXa4zZLKW8eVZTCedhtS9U9Xb+ENuzCvcF/FFmtBnCme5oMq4A3MFvSuM1zVMPvmfhyI/X74vrviDib+UyuLQmcMSaL+oU8b3ODvY0G4NqIMEE7Xrt4NwJv1+77P6rLtCI/Dchbmw==|920

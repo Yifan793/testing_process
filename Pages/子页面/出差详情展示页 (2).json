@@ -1,0 +1,872 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "Count": 56
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 41
+  },
+  "Values": {
+    "6,0": "8_完成",
+    "46,0": "申请中"
+  },
+  "Formulas": {
+    "6,0": "SWITCH(状态,\"\",\"1_填写计划申请表_申请人\",\"申请中\",\"1_填写计划申请表_申请人\",\"办公室预定\",\"2_办公室预定\",\"财务部预算\",\"3_财务部预算\",\"经理审批\",\"4_经理审批\",\"总经理审批\",\"4_经理审批\",\"财务部借支\",\"5_财务部借支\",\"票据报销\",\"6_票据报销\",\"财务部结算\",\"7_财务部结算\",\"完成\",\"8_完成\")"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Stepper.StepperCellType, Stepper",
+        "ActiveItem": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "='出差详情展示页 (2)'!状态"
+        },
+        "Items": [
+          {
+            "Text": "申请中",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "1_填写计划申请表_申请人"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "办公室预定",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "2_办公室预定"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "财务部预算",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "3_财务部预算"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "经理审批",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "4_经理审批"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "财务部借支",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "5_财务部借支"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "票据报销",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "6_票据报销"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "财务部结算",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "7_财务部结算"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "完成",
+            "Commands": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='出差详情展示页 (2)'!展示页"
+                    },
+                    "Value": "8_完成"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "6,0": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "8_完成",
+        "OverflowMode": 0
+      }
+    },
+    "46,0": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "状态",
+        "GUID": "4ccf5368-97b8-4419-bc02-a1a796c4a39f"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "CellDefaultValue": "申请中",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "48,0": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "出差信息表",
+        "RowIndex": 48,
+        "RowCount": 8,
+        "ColumnCount": 14,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionStripedStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "48,15": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "ID",
+        "GUID": "89b17022-e5a1-4ffa-8f8c-cc9a659d511d"
+      }
+    },
+    "49,0": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "ID",
+        "GUID": "c85fb6cc-91ef-4da4-9e16-5d8d578a02eb"
+      }
+    },
+    "49,2": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人",
+        "GUID": "12829fc8-5ba3-4f5e-8a87-51ddaa4555c2"
+      }
+    },
+    "49,5": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "出差人数",
+        "GUID": "427a0442-fd72-4695-bdee-12b07c66e0e5"
+      }
+    },
+    "49,8": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "部门",
+        "GUID": "8f024e3a-04d4-43e3-80fe-99bfa4864eec"
+      }
+    },
+    "50,15": {
+      "BindingInfo": {
+        "TableName": "出差信息表",
+        "ColumnName": "流程实例ID",
+        "GUID": "f638ec5a-f254-4357-bbca-4d54c5299fff"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "5,0": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 1,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 1,
+      "6,0": 1,
+      "46,0": 2,
+      "47,0": 1,
+      "47,1": 1,
+      "47,2": 1,
+      "47,3": 1,
+      "47,4": 1,
+      "47,5": 1,
+      "48,0": 1,
+      "48,2": 1,
+      "48,5": 1,
+      "49,0": 1,
+      "49,2": 1,
+      "49,5": 1,
+      "50,0": 3,
+      "50,1": 3,
+      "50,2": 3,
+      "50,3": 3,
+      "50,4": 3,
+      "50,5": 3,
+      "50,6": 3,
+      "50,7": 3,
+      "50,8": 3,
+      "50,9": 3,
+      "50,10": 3,
+      "50,11": 3,
+      "50,12": 3,
+      "50,13": 3,
+      "51,0": 3,
+      "51,1": 3,
+      "51,2": 3,
+      "51,3": 3,
+      "51,4": 3,
+      "51,5": 3,
+      "51,6": 3,
+      "51,7": 3,
+      "51,8": 3,
+      "51,9": 3,
+      "51,10": 3,
+      "51,11": 3,
+      "51,12": 3,
+      "51,13": 3,
+      "52,0": 3,
+      "52,1": 3,
+      "52,2": 3,
+      "52,3": 3,
+      "52,4": 3,
+      "52,5": 3,
+      "52,6": 3,
+      "52,7": 3,
+      "52,8": 3,
+      "52,9": 3,
+      "52,10": 3,
+      "52,11": 3,
+      "52,12": 3,
+      "52,13": 3,
+      "53,0": 3,
+      "53,1": 3,
+      "53,2": 3,
+      "53,3": 3,
+      "53,4": 3,
+      "53,5": 3,
+      "53,6": 3,
+      "53,7": 3,
+      "53,8": 3,
+      "53,9": 3,
+      "53,10": 3,
+      "53,11": 3,
+      "53,12": 3,
+      "53,13": 3,
+      "54,0": 3,
+      "54,1": 3,
+      "54,2": 3,
+      "54,3": 3,
+      "54,4": 3,
+      "54,5": 3,
+      "54,6": 3,
+      "54,7": 3,
+      "54,8": 3,
+      "54,9": 3,
+      "54,10": 3,
+      "54,11": 3,
+      "54,12": 3,
+      "54,13": 3,
+      "55,0": 3,
+      "55,1": 3,
+      "55,2": 3,
+      "55,3": 3,
+      "55,4": 3,
+      "55,5": 3,
+      "55,6": 3,
+      "55,7": 3,
+      "55,8": 3,
+      "55,9": 3,
+      "55,10": 3,
+      "55,11": 3,
+      "55,12": 3,
+      "55,13": 3
+    },
+    "RowStyles": {
+      "45": 3,
+      "46": 3,
+      "47": 3,
+      "48": 3,
+      "49": 3,
+      "50": 3,
+      "51": 3,
+      "52": 3,
+      "53": 3,
+      "54": 3,
+      "55": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,0,4,41",
+    "6,0,39,41",
+    "49,0,1,2",
+    "49,2,1,3",
+    "49,5,1,3",
+    "49,8,1,3",
+    "46,0,1,6",
+    "50,0,6,14",
+    "48,15,1,25",
+    "50,15,1,25",
+    "48,0,1,2",
+    "48,2,1,3",
+    "48,5,1,3",
+    "48,8,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "任务详情",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "46b73348-e3fe-4700-a846-8f8843868458.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF2F2F2"
+      },
+      "IsAutomaticFill": false,
+      "Size": "820,905"
+    },
+    {
+      "Name": "4051c56e-9360-4896-a6b2-f90a4f7c4ed0.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Size": "820,0"
+    },
+    {
+      "Name": "8303b2bc-4f8b-4610-bda5-146cb3221382.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,105",
+      "Size": "820,800"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "展示页",
+      "Formula": "'出差详情展示页 (2)'!$A$7"
+    },
+    {
+      "Name": "状态",
+      "Formula": "'出差详情展示页 (2)'!$A$47"
+    }
+  ]
+}//gKm8lM+lg9OtWTVOvY9e35/u5OYgglFJ+b9/OFuhafeBetuy0h/N++fGf9GUwHgcgCmqxP0rVkBpVLLFesKXKPMCQIFWKeyefOAvw4uJAtumiCEVrmZVioz+P47KmfoVC2wsZgwYrDO9PCMlnjdxJ/ONQVawa2yupKS569DzeYUjnsI8Weu4h+wjUayuPaDmgSnB73jWSdfqbRApYn/LtYjkcuPLdPY6aGhkKQ3c0JAJcQ1OCWZSojFnwgexG3CrWpOCX8UkUHe44rHd3V+qNp3/dlg7Pt16i2EydDZBT6RtIaLzCJ/O6lzVvrHaSCiSVWLvaSHqS3xbewjT/szf8rUhQktOHH8fES3NgZ/t9I3ob1S9vAM8zuJ76I4WtLtaq5yujK3qVftaL2vbW1JMGbyJCcu6aDZSnlU4i4CTURrdnBd05qulKee+BzM4881yH0ox8XpXKARHjBsyehxOZy3lLzOXXM5TKzC7EmFGbOKeU7AXdRM0I2NoIGIgZq8L6lWmYDbjeMCej6UiH4+S9NzeCNZTn5xjzmyRHtVYIL114Hrq7PDuJTMDXIBEhJVC0QNTFBxZu26TMB+ffNT+VyA6X4oCXgf9MrDOcYvOt3OTeRQmYM2ZswFgPhsLdfHpm4ms/aILXWUIJLzQhZBw3yCicGC/z0e4pgUZw3mgS59HzsYT5EMHzTQfDS0YECNGjz7fdvpdgvP2ffoxyPNYjbGcir5QL+GzGWh4XAAhT+rKmqO7/qx4kP8NtqSG+7HGUaBus73cwUApUNzQf0r5ywb0P8rLxqpj9miUH3wllpKOMN2IlkhBcszXJl2TzeXrrO0FYGxmU2bZ4W678P5KuSmvimYb3WCTxvTgj8hslNQ8UqQsI/9RjAfTZUHZ4nz3/69d3hReo/MitWmitk3Cjg==|920
