@@ -402,16 +402,7 @@
   },
   {
     "ModuleName": "ServerCommand/更新任务摘要",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-16T17:04:33.846955+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\更新任务摘要.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "ServerCommand/更新出差信息表的流程实例ID",
@@ -423,17 +414,7 @@
   },
   {
     "ModuleName": "ProcessItem/出差流程",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-16T16:43:53.3615118+08:00",
-    "ModuleType": 28,
-    "ToRemoveFiles": [
-      "Process\\出差流程.json",
-      "Process\\出差流程.bpmn"
-    ]
+    "ModuleType": 28
   },
   {
     "ModuleName": "ProcessItem/流程1",
@@ -658,12 +639,6 @@
   },
   {
     "ModuleName": "ProcessItem/出差流程 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-16T16:40:00.9282519+08:00",
     "ModuleType": 28
   }
 ]
